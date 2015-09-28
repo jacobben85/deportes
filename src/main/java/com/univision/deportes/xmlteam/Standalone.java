@@ -36,19 +36,19 @@ public class Standalone {
 
     public String process(InputStream xml) throws IOException {
 
-        InputStream xsl1 = this.getClass().getClassLoader().getResourceAsStream("xsl/deportes/bbc-to-xts.xsl");
+        InputStream xsl1 = this.getClass().getClassLoader().getResourceAsStream("xsl/xmlteam/bbc-to-xts.xsl");
         String response1 = XmlTeamNormalize.transformer(xml, xsl1, false);
 
         InputStream xml2 = new ByteArrayInputStream(response1.getBytes());
-        InputStream xsl2 = this.getClass().getClassLoader().getResourceAsStream("xsl/deportes/xts-to-2.2.xsl");
+        InputStream xsl2 = this.getClass().getClassLoader().getResourceAsStream("xsl/xmlteam/xts-to-2.2.xsl");
         String response2 = XmlTeamNormalize.transformer(xml2, xsl2, false);
 
         InputStream xml3 = new ByteArrayInputStream(response2.getBytes());
-        InputStream xsl3 = this.getClass().getClassLoader().getResourceAsStream("xsl/deportes/normalize.xsl");
+        InputStream xsl3 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/normalize.xsl");
         String response3 = XmlTeamNormalize.transformer(xml3, xsl3, false);
 
         InputStream xml4 = new ByteArrayInputStream(response3.getBytes());
-        InputStream xsl4 = this.getClass().getClassLoader().getResourceAsStream("xsl/deportes/processingInstructions.xsl");
+        InputStream xsl4 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/processingInstructions.xsl");
         String response4 = XmlTeamNormalize.transformer(xml4, xsl4, false);
 
         String json = "";
@@ -179,8 +179,10 @@ public class Standalone {
         System.out.println(feedUrls);
         for (String feedUrl : feedUrls) {
             String feedResponse = getXMLTeamURL("http://feed5.xmlteam.com/sportsml/files/" + feedUrl);
+            System.out.println(feedResponse);
             InputStream stream = new ByteArrayInputStream(feedResponse.getBytes(StandardCharsets.UTF_8));
             String filename = generateFileName(feedUrl);
+            System.out.println(filename);
             String json = process(stream);
 
             System.out.println(filename + " ==>> " + json);
