@@ -176,16 +176,11 @@ public class Standalone {
         String response = getXMLTeamURL(url);
         List<String> feedUrls = getSportsMLDocURLs(response);
 
-        System.out.println(feedUrls);
         for (String feedUrl : feedUrls) {
             String feedResponse = getXMLTeamURL("http://feed5.xmlteam.com/sportsml/files/" + feedUrl);
-            System.out.println(feedResponse);
             InputStream stream = new ByteArrayInputStream(feedResponse.getBytes(StandardCharsets.UTF_8));
             String filename = generateFileName(feedUrl);
-            System.out.println(filename);
             String json = process(stream);
-
-            System.out.println(filename + " ==>> " + json);
 
             File file = new File("json/" + eventId + "/" + filename);
             file.getParentFile().mkdirs();
