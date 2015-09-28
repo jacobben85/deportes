@@ -26,20 +26,19 @@ public class XmlTeamNormalize {
 
         InputStream xml1 = this.getClass().getClassLoader().getResourceAsStream("xml/deportes/event-stats-809979.xml");
 
-        InputStream xsl1 = this.getClass().getClassLoader().getResourceAsStream("xsl/deportes/bbc-to-xts.xsl");
+        InputStream xsl1 = this.getClass().getClassLoader().getResourceAsStream("xsl/xmlteam/bbc-to-xts.xsl");
         String response1 = transformer(xml1, xsl1, false);
 
         InputStream xml2 = new ByteArrayInputStream(response1.getBytes());
-        InputStream xsl2 = this.getClass().getClassLoader().getResourceAsStream("xsl/deportes/xts-to-2.2.xsl");
+        InputStream xsl2 = this.getClass().getClassLoader().getResourceAsStream("xsl/xmlteam/xts-to-2.2.xsl");
         String response2 = transformer(xml2, xsl2, false);
 
-        System.out.println("Last XSL processing ");
         InputStream xml3 = new ByteArrayInputStream(response2.getBytes());
-        InputStream xsl3 = this.getClass().getClassLoader().getResourceAsStream("xsl/deportes/normalize.xsl");
+        InputStream xsl3 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/normalize.xsl");
         String response3 = transformer(xml3, xsl3, false);
 
         InputStream xml4 = new ByteArrayInputStream(response3.getBytes());
-        InputStream xsl4 = this.getClass().getClassLoader().getResourceAsStream("xsl/deportes/processingInstructions.xsl");
+        InputStream xsl4 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/processingInstructions.xsl");
         String response4 = transformer(xml4, xsl4, true);
 
         String json = "";
