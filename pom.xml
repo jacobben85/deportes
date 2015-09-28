@@ -18,7 +18,7 @@
             <artifactId>maputils</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>system</scope>
-            <systemPath>/Users/jbjohn/.m2/repository/com/jbjohn/maputils/1.0-SNAPSHOT/maputils-1.0-SNAPSHOT.jar</systemPath>
+            <systemPath>${basedir}/lib/maputils/target/maputils-1.0-SNAPSHOT.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>

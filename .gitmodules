@@ -4,3 +4,6 @@
 [submodule "src/main/resources/xsl"]
 	path = src/main/resources/xsl
 	url = https://github.com/univision/deportes-data-transformations.git
+[submodule "lib/maputils"]
+	path = lib/maputils
+	url = https://github.com/jacobben85/mapUtils.git
