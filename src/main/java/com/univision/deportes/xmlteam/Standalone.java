@@ -63,27 +63,10 @@ public class Standalone {
 
         HashMap<String,Object> result = new ObjectMapper().readValue(json, HashMap.class);
 
-        MapUtil.parse(result, "$.sports-content.sports-metadata.sports-content-codes.sports-content-code.[*].@code-key", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.event-metadata.@event-key", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.event-metadata.site.site-stats.@attendance", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.event-metadata.event-metadata-soccer.[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.event-metadata.event-metadata-soccer.[*].[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].team-stats.@time-of-possession-percentage", Caster.Type.DOUBLE);
-        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].team-metadata.@team-key", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].team-stats.[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].team-stats.[*].[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].team-stats.[*].[*].[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].player.[*].player-stats.[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].player.[*].player-stats.[*].[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].player.[*].player-stats.[*].[*].[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].player.[*].player-metadata.[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].player.[*].player-metadata.player-metadata-soccer.[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.sports-event.event-actions.event-actions-soccer.[*].[*].[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.standing.standing-metadata.sports-property.[*].@value", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.standing.team.[*].team-metadata.@team-key", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.standing.team.[*].team-stats.[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.standing.team.[*].team-stats.[*].[*]", Caster.Type.INTEGER);
-        MapUtil.parse(result, "$.sports-content.standing.team.[*].team-stats.[*].[*].[*]", Caster.Type.INTEGER);
+        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].player.[*].player-metadata.player-metadata-soccer.@line-formation-position", Caster.Type.INTEGER);
+        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].player.[*].player-metadata.player-metadata-soccer.@line-formation", Caster.Type.INTEGER);
+        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].player.[*].player-metadata.player-metadata-soccer.@time-entered-event", Caster.Type.INTEGER);
+        MapUtil.parse(result, "$.sports-content.sports-event.team.[*].player.[*].player-metadata.player-metadata-soccer.@time-exited-event", Caster.Type.INTEGER);
 
         Gson gson = new Gson();
         String processedJson = gson.toJson(fsynSimulator(result));

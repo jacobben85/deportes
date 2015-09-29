@@ -1,6 +1,5 @@
 package com.univision.deportes.xmlteam;
 
-import com.jayway.jsonpath.JsonPath;
 import de.odysseus.staxon.json.JsonXMLConfig;
 import de.odysseus.staxon.json.JsonXMLConfigBuilder;
 import de.odysseus.staxon.json.JsonXMLOutputFactory;
@@ -39,9 +38,8 @@ public class XmlTeamNormalize {
 
         InputStream xml4 = new ByteArrayInputStream(response3.getBytes());
         InputStream xsl4 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/processingInstructions.xsl");
-        String response4 = transformer(xml4, xsl4, true);
+        String response4 = transformer(xml4, xsl4, false);
 
-        System.out.println(response4);
         String json = "";
         try {
             json = xmlToJson(response4, true);
@@ -52,10 +50,7 @@ public class XmlTeamNormalize {
             e.printStackTrace();
         }
 
-        Object teamKey = JsonPath.parse(json).read("$.sports-content.sports-event.team.[*].team-metadata.@team-key");
-        System.out.println(teamKey.toString());
-
-        return !response1.isEmpty() && !response2.isEmpty() && !response3.isEmpty();
+        return !response1.isEmpty() && !response2.isEmpty() && !response3.isEmpty() && !json.isEmpty();
     }
 
     public static String transformer(InputStream xml, InputStream xsl, boolean print) {

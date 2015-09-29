@@ -1,5 +1,6 @@
 package com.univision.deportes.xmlteam;
 
+import junit.framework.Assert;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -37,7 +38,8 @@ public class XmlTeamNormalizeTest {
     @Test
     public void testProcess() {
         XmlTeamNormalize instance = new XmlTeamNormalize();
-        instance.process();
+        boolean status = instance.process();
+        Assert.assertEquals(true, status);
     }
 
 }

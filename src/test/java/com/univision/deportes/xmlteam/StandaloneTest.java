@@ -31,4 +31,23 @@ public class StandaloneTest {
             e.printStackTrace();
         }
     }
+//
+//    @Test
+//    public void testProcessOther() {
+//        Standalone standalone = new Standalone();
+//        try {
+//
+//            String eventId = "803172";
+//            String period = "start=P3M";
+//
+//            String url = "http://feed5.xmlteam.com/api/feeds?" +
+//                    "&publisher-keys=optasports.com" +
+//                    "&format=xml" +
+//                    period +
+//                    "&event-keys=EFBO";
+//            standalone.fetchLinksAndProcess(url + eventId, eventId);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
 }
