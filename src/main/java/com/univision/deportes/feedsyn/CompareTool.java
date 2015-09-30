@@ -26,13 +26,12 @@ public class CompareTool {
         JsonParser parser = new JsonParser();
         try {
             String json = fp.processFeed(type, eventId);
-            String json2 = json;
 
             if (tracker.containsKey(key)) {
                 String jsonOld = (String) tracker.get(key);
 
                 JsonElement jsonObject = parser.parse(json);
-                JsonElement jsonObject2 = parser.parse(json2);
+                JsonElement jsonObject2 = parser.parse(jsonOld);
                 if (jsonObject.getAsJsonObject().equals(jsonObject2.getAsJsonObject())) {
                     System.out.println("Json not updated");
                 } else {
