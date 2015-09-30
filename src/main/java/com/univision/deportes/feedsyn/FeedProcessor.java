@@ -39,6 +39,7 @@ public class FeedProcessor {
         String signature = SignatureGenerator.generateSignature(url);
         url = "http://sports.dev.y.univision.com" + url + "?client_id=" + SignatureGenerator.getClientId() + "&signature=" + signature;
         URI uri = new URI(url);
+        System.out.println(url);
         httpGet.setURI(uri);
         httpGet.setHeader("Authorization", "Basic ZGVidWc6WG9vbmcxZWU=");
         HttpResponse response = httpClient.execute(httpGet);

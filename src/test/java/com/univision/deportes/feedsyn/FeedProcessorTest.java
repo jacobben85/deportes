@@ -2,6 +2,7 @@ package com.univision.deportes.feedsyn;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.skyscreamer.jsonassert.JSONAssert;
 
@@ -13,19 +14,23 @@ import java.util.List;
 import static com.jayway.awaitility.Awaitility.await;
 
 /**
- * Created by jbjohn on 9/30/15.
  */
+@RunWith(Parameterized.class)
 public class FeedProcessorTest {
 
     private static FeedProcessor fp;
     private static String expectedStats;
     private static String expectedComments;
     private static String scheduleResults;
-    private static String eventId = "832681"; // Roma v Barcelona
+    private static String eventId = "832696"; // Roma v Barcelona
     private static String season = "2015";
     private static String league = "5"; // Champions League
     private static String team = "178"; // Barcelona
+    private static CompareTool ct;
 
+//    public FeedProcessorTest(String eventId) {
+//        this.eventId = eventId;
+//    }
 
     @BeforeClass
     public static void setUp() throws IOException, URISyntaxException {
@@ -33,11 +38,22 @@ public class FeedProcessorTest {
         expectedStats = fp.processFeed("stats", eventId);
         expectedComments = fp.processFeed("commentary", eventId);
         scheduleResults = fp.processFeed("schedule", eventId);
+        ct = new CompareTool();
     }
 
     @Parameterized.Parameters
     public static List<Object[]> data() {
-        return Arrays.asList(new Object[100][0]);
+//        return Arrays.asList(new Object[][] {
+//                {"832696"},
+//                {"832669"},
+//                {"832637"},
+//                {"832695"},
+//                {"832674"},
+//                {"832663"},
+//                {"832627"},
+//                {"832657"}
+//        });
+        return Arrays.asList(new Object[1000][0]);
     }
 
     @Test
@@ -60,7 +76,6 @@ public class FeedProcessorTest {
         });
     }
 
-    @Test
     public void testProcessFeedComments() throws InterruptedException {
         String response = null;
         try {
@@ -80,7 +95,6 @@ public class FeedProcessorTest {
         });
     }
 
-    @Test
     public void testProcessFeedScheduleResults() throws InterruptedException {
         String response = null;
         try {
@@ -103,5 +117,15 @@ public class FeedProcessorTest {
     private boolean delayMethod() throws InterruptedException {
         Thread.sleep(9000);
         return true;
+    }
+
+    @Test
+    public void testCompareJson() {
+        ct.compareJson("832695", "stats");
+        ct.compareJson("832695", "commentary");
+        await().until(() ->
+        {
+            return delayMethod();
+        });
     }
 }
