@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:apcm="http://ap.org/schemas/03/2005/apcm" xmlns:apnm="http://ap.org/schemas/03/2005/apnm" xmlns:georss="http://www.georss.org/georss" xmlns:o="http://w3.org/ns/odrl/2/">
+    <id>urn:publicid:ap.org:30566</id>
+    <title type="xhtml">
+        <apxh:div xmlns:apxh="http://www.w3.org/1999/xhtml">
+            <apxh:span>AP Spanish Online - All News</apxh:span>
+        </apxh:div>
+    </title>
+    <apcm:Property Name="FeedProperties">
+        <apcm:Property Name="Entitlement" Id="urn:publicid:ap.org:product:30566" Value="AP Spanish Online - All News" />
+        <apcm:Property Name="FeedSequencing">
+            <apcm:Property Name="sequenceNumber" Id="361480297" />
+            <apcm:Property Name="minDateTime" Value="2015-11-03T21:43:22.663Z" />
+        </apcm:Property>
+    </apcm:Property>
+    <updated>2015-11-03T21:43:22.663Z</updated>
+    <author>
+        <name>The Associated Press</name>
+        <uri>http://www.ap.org</uri>
+    </author>
+    <rights>Copyright 2015 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</rights>
+    <link rel="self" href="http://syndication.ap.org/AP.Distro.Feed/GetFeed.aspx?idList=30566&amp;idListType=products&amp;maxItems=10&amp;fullContent=nitf" />
+    <entry xmlns="http://www.w3.org/2005/Atom">
+        <id>urn:publicid:ap.org:ba4e91f93b23442ba33971e8e8aedf58</id>
+        <title>ESP-CEL BOBBI KRISTINA BROWN</title>
+        <updated>2015-11-03T21:43:22.663Z</updated>
+        <published>2015-11-03T21:43:15Z</published>
+        <author>
+            <name>AP</name>
+        </author>
+        <rights>Copyright 2015 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</rights>
+        <content type="text/xml">
+            <nitf version="-//IPTC//DTD NITF 3.4//EN" change.date="October 18, 2006" change.time="19:30" xmlns="">
+                <head>
+                    <docdata>
+                        <doc-id regsrc="AP" />
+                        <date.issue norm="20151103T214315Z" />
+                        <ed-msg info="EDITORES: Con AP Fotos." />
+                        <doc.copyright holder="AP" year="2015" />
+                    </docdata>
+                </head>
+                <body>
+                    <body.head>
+                        <hedline>
+                            <hl1 id="headline">Cuidó de Bobbi Kristina haciéndose pasar por enfermera</hl1>
+                            <hl2 id="originalHeadline">Cuidó de Bobbi Kristina haciéndose pasar por enfermera</hl2>
+                        </hedline>
+                        <byline>Por JEFF MARTIN<byttl>Associated Press</byttl></byline>
+                        <distributor>The Associated Press</distributor>
+                        <dateline>
+                            <location>ATLANTA</location>
+                        </dateline>
+                    </body.head>
+                    <body.content>
+                        <media id="media:2595429616514eeaa1e71a02ab789470" media-type="Photo">
+                            <media-metadata id="media-id:2595429616514eeaa1e71a02ab789470" name="id" value="urn:publicid:ap.org:2595429616514eeaa1e71a02ab789470" />
+                            <media-metadata id="media-managementId:2595429616514eeaa1e71a02ab789470" name="managementId" value="urn:publicid:ap.org:2595429616514eeaa1e71a02ab789470" />
+                            <media-metadata id="media-friendlyKey:2595429616514eeaa1e71a02ab789470" name="FriendlyKey" value="681172839073" />
+                            <media-metadata id="media-transRef:2595429616514eeaa1e71a02ab789470" name="TransRef" value="SPANAX103" />
+                            <media-metadata id="media-metadata-OriginalFileName:eed629606ca6b531860f6a7067009847" name="OriginalFileName" value="BOBBI_KRISTINA_BROWN_SPANAX103.jpg" />
+                            <media-metadata id="media-metadata-Format:eed629606ca6b531860f6a7067009847" name="Format" value="JPEG Baseline" />
+                            <media-metadata id="media-metadata-Role:eed629606ca6b531860f6a7067009847" name="Role" value="Main" />
+                            <media-metadata id="media-metadata-IngestLink:eed629606ca6b531860f6a7067009847" name="IngestLink" value="True" />
+                            <media-reference id="media-reference:eed629606ca6b531860f6a7067009847" mime-type="image/jpeg" name="AP Photo" source="http://eapcontent.ap.org/jpg/2015/20151103/21/eed629606ca6b531860f6a7067009847.jpg?contentid=eed629606ca6b531860f6a7067009847/fmt=jpg/role=Main/reldt=2015-11-03T21:37:56/media=Photo/recordid=2595429616514eeaa1e71a02ab789470/itemid=2595429616514eeaa1e71a02ab789470/objfilename=secured/main.jpg/authToken=eNoNyzEOgzAMBdATJbLj5McMPgBLt3atAgSJLRJCMPjw7duf98cgRVPOAlIiYhH4eljvG9IEClgbwlKEg4L2gFYJlWjSXP067f2aP%2fP37sv%2bH6eP29pghh%2fDRCNzirlGLvkHBCcdcg%3d%3d&amp;token=1446846808_74614940791777F442BD04B0B5FFA034" alternate-text="Taiwo Sobamowo" height="800" width="640" coding="jpg" />
+                            <media-metadata id="media-metadata-OriginalFileName:eec64e276ca6b531860f6a706700069c" name="OriginalFileName" value="BOBBI_KRISTINA_BROWN_SPANAX103.jpg" />
+                            <media-metadata id="media-metadata-Format:eec64e276ca6b531860f6a706700069c" name="Format" value="JPEG Baseline" />
+                            <media-metadata id="media-metadata-Role:eec64e276ca6b531860f6a706700069c" name="Role" value="Preview" />
+                            <media-metadata id="media-metadata-IngestLink:eec64e276ca6b531860f6a706700069c" name="IngestLink" value="True" />
+                            <media-reference id="media-reference:eec64e276ca6b531860f6a706700069c" mime-type="image/jpeg" name="AP Preview Image" source="http://eapcontent.ap.org/jpg/2015/20151103/21/eec64e276ca6b531860f6a706700069c.jpg?contentid=eec64e276ca6b531860f6a706700069c/fmt=jpg/role=Preview/reldt=2015-11-03T21:37:56/media=Photo/recordid=2595429616514eeaa1e71a02ab789470/itemid=2595429616514eeaa1e71a02ab789470/objfilename=preview.jpg/authToken=eNoNyjEOwzAIAMAX2QIbAx14QJZs7Vo5DpGyWYqqdODx7c0X%2fjWuTQtRZVAAkFo0xmnug8mLJB6d09YqJmU4EncBln%2fkx4jPZc91eS3v27fDfb9i3tYnIsc5rWpGLJkkY6MfGyQdzw%3d%3d&amp;token=1446846808_EC30C81435A35947E0F1012BF0446F9B" alternate-text="Taiwo Sobamowo" height="512" width="409" coding="jpg" />
+                            <media-metadata id="media-metadata-OriginalFileName:eec6b4db6ca6b531860f6a7067004ab3" name="OriginalFileName" value="BOBBI_KRISTINA_BROWN_SPANAX103.jpg" />
+                            <media-metadata id="media-metadata-Format:eec6b4db6ca6b531860f6a7067004ab3" name="Format" value="JPEG Baseline" />
+                            <media-metadata id="media-metadata-Role:eec6b4db6ca6b531860f6a7067004ab3" name="Role" value="Thumbnail" />
+                            <media-metadata id="media-metadata-IngestLink:eec6b4db6ca6b531860f6a7067004ab3" name="IngestLink" value="True" />
+                            <media-reference id="media-reference:eec6b4db6ca6b531860f6a7067004ab3" mime-type="image/jpeg" name="AP Thumbnail Image" source="http://eapcontent.ap.org/jpg/2015/20151103/21/eec6b4db6ca6b531860f6a7067004ab3.jpg?contentid=eec6b4db6ca6b531860f6a7067004ab3/fmt=jpg/role=Thumbnail/reldt=2015-11-03T21:37:56/media=Photo/recordid=2595429616514eeaa1e71a02ab789470/itemid=2595429616514eeaa1e71a02ab789470/objfilename=thumbnail.jpg/authToken=eNoFwjEOwzAIAMAX2QKDMYsfkKVbu1bGIVI2S1GVDjw%2bugv%2fd6GqhZkEFAAaFY15dvcpxrslmUOSVcKkAkeS0UAaAA%2bj%2bF39%2fdo%2b2%2fd2O9z3K9bdx0KUOFcnzYglc8tY%2bQE8ux5R&amp;token=1446846808_82590CABF70BDD472BEDCBE2F2E177CE" alternate-text="Taiwo Sobamowo" height="128" width="102" coding="jpg" />
+                            <media-caption id="media-caption:2595429616514eeaa1e71a02ab789470">
+                                <p>
+                                    Taiwo Sobamowo en una imagen proporcionada por la cárcel del condado de Wake en Carolina del Norte. La policía dice que Sobamowo, quien estuvo a cargo del cuidado de Bobbi Kristina Brown en el hospital de cuidados paliativos donde ésta murió, estaba haciéndose pasar por enfermera y ahora enfrenta cargos que incluyen suplantación de identidad y práctica de enfermería sin licencia, dijo la policía. (Cárcel del Condado de Wake (NC) vía AP)
+                                </p>
+                            </media-caption>
+                            <media-producer id="media-producer:2595429616514eeaa1e71a02ab789470">The Associated Press</media-producer>
+                        </media>
+                        <block id="Main">
+                            <p>ATLANTA (AP) — Una mujer a cargo del cuidado de Bobbi Kristina Brown en el hospital de cuidados paliativos donde ésta murió estaba haciéndose pasar por enfermera y ahora enfrenta cargos que incluyen suplantación de identidad y práctica de enfermería sin licencia, dijo la policía.</p>
+                            <p>Taiwo Sobamowo cuidó de Brown, la única hija de Bobby Brown y la fallecida Whitney Houston, en el Hospicio Cristiano Peachtree en Duluth, de acuerdo con un reporte policial obtenido por The Associated Press. El reporte describe a Sobamowo, de 32 años, como la enfermera a cargo en el cuidado de Brown.</p>
+                            <p>No hay nada en el reporte que mencione cómo el cuidado de Brown pudo haberse visto afectado. La policía de Duluth dice que el caso está bajo investigación.</p>
+                            <p>Brown murió a los 22 años el 26 de julio, meses después de haber sido hallada boca abajo e inconsciente en una bañera en su casa de Roswell el 31 de enero. El hospital no respondió el martes mensajes en busca de comentarios.</p>
+                            <p>Sobamowo, quien tiene direcciones en Buford, Georgia, y Raleigh, Carolina del Norte, permanecía detenida el martes en una cárcel de Raleigh como fugitiva de otro estado, muestran documentos. La cárcel no tenía listado en sus registros un abogado que la representara.</p>
+                            <p>El caso de Sobamowo comenzó en septiembre, cuando investigadores en el condado de Forsyth comenzaron a revisar sus antecedentes tras recibir una pista que despertaba dudas sobre esta mujer que había trabajado en un centro de vivienda asistida, dijo el martes el ayudante del sheriff Epifanio Rodríguez.</p>
+                            <p>Sobamowo enfrenta cargos de falsificación premeditada, suplantación de identidad y práctica de enfermería sin una licencia en el condado de Forsyth, dijo Rodríguez.</p>
+                            <p>El 27 de octubre, el detective de policía del condado de Forsyth Jeffrey Roe contactó a la policía de Duluth "en referencia con un caso de alto perfil" sobre el cual Duluth tiene cierta jurisdicción, escribió la policía de Duluth en su reporte.</p>
+                            <p>Roe dijo que Sobamowo le había robado el número de certificado emitido por el estado a una verdadera enfermera del Grady Memorial Hospital en Atlanta.</p>
+                            <p>"Nuestra investigación no ha revelado ninguna licencia ni registro oficial a través de la Junta de Enfermería de Georgia para Sobamowo", dijo la policía de Duluth en una declaración separada sobre el caso.</p>
+                            <p>"La documentación obtenida a través del registro de empleo de Sobamowo indica que asistió a una universidad de medicina en Washington", dice el comunicado. "Hasta la fecha hemos podido confirmar su asistencia a esta escuela".</p>
+                            <p>La policía de Duluth dijo que obtuvo una orden que acusa a Sobamowo de practicar enfermería sin licencia en esa ciudad y que se presentarán más cargos.</p>
+                            <p>La policía de Roswell ha estado investigando las circunstancias en torno a la muerte de Brown. En septiembre, el médico forense del condado de Fulton dijo que la causa había sido determinada, pero los resultados de la autopsia no se harán públicos, pues están sellados por orden judicial.</p>
+                            <p>___</p>
+                            <p>Emery Dalesio, corresponsal de AP en Raleigh, contribuyó a este despacho.</p>
+                        </block>
+                    </body.content>
+                    <body.end />
+                </body>
+            </nitf>
+        </content>
+        <link rel="alternate" title="AP Article" href="http://www.apnewsarchive.com/2015/Polic-a-Mujer-que-cuid-de-Bobbi-Kristina-en-hospicio-se-hizo-pasar-por-enfermera/id-338af3cfd2454478aaafd3d7857d0a1b" />
+        <apcm:ContentMetadata xmlns:apcm="http://ap.org/schemas/03/2005/apcm">
+            <apcm:DateLineLocation City="Atlanta" Country="USA" CountryArea="GA" CountryAreaName="Georgia" CountryName="United States" />
+            <apcm:Priority Numeric="4" Legacy="r" />
+            <apcm:ConsumerReady>TRUE</apcm:ConsumerReady>
+            <apcm:ByLine Title="Associated Press">Por JEFF MARTIN</apcm:ByLine>
+            <apcm:DateLine>ATLANTA</apcm:DateLine>
+            <apcm:ExtendedHeadLine>Policía: Mujer que cuidó de Bobbi Kristina en hospicio se hizo pasar por enfermera</apcm:ExtendedHeadLine>
+            <apcm:HeadLine>Cuidó de Bobbi Kristina haciéndose pasar por enfermera</apcm:HeadLine>
+            <apcm:OriginalHeadLine>Cuidó de Bobbi Kristina haciéndose pasar por enfermera</apcm:OriginalHeadLine>
+            <apcm:Keywords>ESP-CEL BOBBI KRISTINA BROWN</apcm:Keywords>
+            <apcm:Cycle>BC</apcm:Cycle>
+            <apcm:Selector>spen-</apcm:Selector>
+            <apcm:LegacyTypeSetFormat>bx</apcm:LegacyTypeSetFormat>
+            <apcm:TransmissionReference>SP6538</apcm:TransmissionReference>
+            <apcm:SlugLine>BC-ESP-CEL BOBBI KRISTINA BROWN</apcm:SlugLine>
+            <apcm:ContentElement>FullStory</apcm:ContentElement>
+            <apcm:MediaType>Text</apcm:MediaType>
+            <apcm:SubjectClassification Authority="AP Category Code" Value="e" Id="e" />
+            <apcm:SubjectClassification Authority="AP Subject" Value="Arts and entertainment" Id="16cb0ba3e6d24d97ace39f5a1924669a" />
+            <apcm:SubjectClassification Authority="AP Subject" Value="Celebrity" Id="b4ed19d87e5c10048565df092526b43e" />
+            <apcm:SubjectClassification Authority="AP Subject" Value="Entertainment" Id="5b4319707dd310048b23df092526b43e" />
+            <apcm:ItemContentType>Spot Development</apcm:ItemContentType>
+            <apcm:Source>AP</apcm:Source>
+            <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:30568" Value="AP Spanish Online - Entertainment News" />
+            <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:package:100021" Value="Spanish Online" />
+            <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:30566" Value="AP Spanish Online - All News" />
+            <apcm:Property Name="SequenceNumber" Value="InSequence" Id="361480297" />
+            <apcm:FirstCreated>2015-11-03T21:43:15Z</apcm:FirstCreated>
+        </apcm:ContentMetadata>
+        <apnm:NewsManagement xmlns:apnm="http://ap.org/schemas/03/2005/apnm">
+            <apnm:ManagementId>urn:publicid:ap.org:338af3cfd2454478aaafd3d7857d0a1b</apnm:ManagementId>
+            <apnm:ManagementSequenceNumber>0</apnm:ManagementSequenceNumber>
+            <apnm:PublishingStatus>Usable</apnm:PublishingStatus>
+            <apnm:PublishingSpecialInstructions>EDITORES: Con AP Fotos.</apnm:PublishingSpecialInstructions>
+            <apnm:PublishingReleaseDateTime>2015-11-03T21:43:09Z</apnm:PublishingReleaseDateTime>
+        </apnm:NewsManagement>
+    </entry>
+</feed>

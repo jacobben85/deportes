@@ -5,7 +5,6 @@ import com.google.gson.JsonParser;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.util.Date;
 import java.util.HashMap;
 
 /**
@@ -21,7 +20,6 @@ public class CompareTool {
 
     public void compareJson(String eventId, String type) {
 
-        System.out.println("running test eventId/type : " + eventId + "/" + type + " at : " + new Date());
         String key = eventId + type;
         JsonParser parser = new JsonParser();
         try {
@@ -33,9 +31,7 @@ public class CompareTool {
                 JsonElement jsonObject = parser.parse(json);
                 JsonElement jsonObject2 = parser.parse(jsonOld);
                 if (jsonObject.getAsJsonObject().equals(jsonObject2.getAsJsonObject())) {
-                    System.out.println("Json not updated");
                 } else {
-                    System.out.println("Json updated");
                 }
                 tracker.put(key, json);
             } else {

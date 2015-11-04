@@ -28,9 +28,9 @@ public class FeedProcessorTest {
     private static String team = "178"; // Barcelona
     private static CompareTool ct;
 
-//    public FeedProcessorTest(String eventId) {
-//        this.eventId = eventId;
-//    }
+    public FeedProcessorTest(String eventId) {
+        this.eventId = eventId;
+    }
 
     @BeforeClass
     public static void setUp() throws IOException, URISyntaxException {
@@ -43,17 +43,27 @@ public class FeedProcessorTest {
 
     @Parameterized.Parameters
     public static List<Object[]> data() {
-//        return Arrays.asList(new Object[][] {
-//                {"832696"},
-//                {"832669"},
-//                {"832637"},
-//                {"832695"},
-//                {"832674"},
-//                {"832663"},
-//                {"832627"},
-//                {"832657"}
-//        });
-        return Arrays.asList(new Object[1000][0]);
+        return Arrays.asList(new Object[][] {
+                {"832696"},
+                {"832669"},
+                {"832637"},
+                {"832695"},
+                {"832674"},
+                {"832663"},
+                {"832627"},
+                {"832657"},
+                {"803172"},
+                {"803173"},
+                {"803174"},
+                {"803175"},
+                {"803176"},
+                {"803177"},
+                {"803178"},
+                {"803179"},
+                {"803180"},
+                {"803181"}
+        });
+//        return Arrays.asList(new Object[1000][0]);
     }
 
     @Test
@@ -115,14 +125,14 @@ public class FeedProcessorTest {
     }
 
     private boolean delayMethod() throws InterruptedException {
-        Thread.sleep(9000);
+        Thread.sleep(10);
         return true;
     }
 
     @Test
     public void testCompareJson() {
-        ct.compareJson("832695", "stats");
-        ct.compareJson("832695", "commentary");
+        ct.compareJson(eventId, "stats");
+        ct.compareJson(eventId, "commentary");
         await().until(() ->
         {
             return delayMethod();

@@ -37,7 +37,7 @@ public class Standalone {
     public String process(InputStream xml) throws IOException {
 
         InputStream xsl1 = this.getClass().getClassLoader().getResourceAsStream("xsl/xmlteam/bbc-to-xts.xsl");
-        String response1 = XmlTeamNormalize.transformer(xml, xsl1, false);
+        String response1 = XmlTeamNormalize.transformer(xml, xsl1, true);
 
         InputStream xml2 = new ByteArrayInputStream(response1.getBytes());
         InputStream xsl2 = this.getClass().getClassLoader().getResourceAsStream("xsl/xmlteam/xts-to-2.2.xsl");
