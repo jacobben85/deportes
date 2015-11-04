@@ -121,34 +121,78 @@ public class SoccerMatch {
     }
 
     private SoccerMatchStatus getSoccerMatchStatus() {
-        return SoccerMatchStatus.PREMATCH;
+        return soccerMatchStatus;
     }
 
     private SoccerMatchPeriod getSoccerMatchPeriod() {
-        return SoccerMatchPeriod.PREMATCH;
+        return soccerMatchPeriod;
     }
 
     private boolean getLiveStream() {
-        return true;
+        return liveStream;
     }
 
     private Integer getHomeTeamPenaltyScore() {
-        return null;
+        return homePenality;
     }
 
     private Integer getAwayTeamPenaltyScore() {
-        return null;
+        return awayPenality;
     }
 
     private boolean getExtraTime() {
-        return false;
+        return extraTime;
     }
 
     private Date getSoccerMatchPeriodTimeStamp() {
-        return new Date();
+        return matchPeriod;
     }
 
     private Date getMatchTime() {
-        return new Date();
+        return matchTime;
+    }
+
+    private SoccerMatchStatus soccerMatchStatus = SoccerMatchStatus.PREMATCH;
+    private SoccerMatchPeriod soccerMatchPeriod = SoccerMatchPeriod.PREMATCH;
+    private boolean liveStream = false;
+    private Integer homePenality;
+    private Integer awayPenality;
+    private boolean extraTime = false;
+    private Date matchPeriod = new Date();
+    private Date matchTime = new Date();
+
+    public SoccerMatch() {
+    }
+
+    public void setSoccerMatchStatus(SoccerMatchStatus soccerMatchStatus) {
+        this.soccerMatchStatus = soccerMatchStatus;
+    }
+
+    public void setSoccerMatchPeriod(SoccerMatchPeriod soccerMatchPeriod) {
+        this.soccerMatchPeriod = soccerMatchPeriod;
+    }
+
+    public void setLiveStream(boolean liveStream) {
+        this.liveStream = liveStream;
+    }
+
+    public void setHomePenality(Integer homePenality) {
+        this.homePenality = homePenality;
+    }
+
+    public void setAwayPenality(Integer awayPenality) {
+        this.awayPenality = awayPenality;
+    }
+
+    public void setExtraTime(boolean extraTime) {
+        this.extraTime = extraTime;
+    }
+
+    public void setMatchPeriod(Date matchPeriod) {
+        this.matchPeriod = matchPeriod;
+    }
+
+    public void setMatchTime(Date matchTime) {
+        this.matchTime = matchTime;
     }
 }
