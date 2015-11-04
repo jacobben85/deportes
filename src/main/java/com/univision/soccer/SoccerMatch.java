@@ -83,15 +83,15 @@ public class SoccerMatch {
             if (period == SoccerMatchPeriod.FIRST_HALF) {
                 time = formatTime(timeStamp, 45, 0);
             } else if (period == SoccerMatchPeriod.SECOND_HALF) {
-                time = formatTime(timeStamp, 90, 0);
+                time = formatTime(timeStamp, 45, 45);
             } else if (period == SoccerMatchPeriod.EXTRA_TIME) {
                 time = "TE";
             } else if (period == SoccerMatchPeriod.EXTRA_FIRST_HALF) {
-                time = formatTime(timeStamp, 105, 0);
+                time = formatTime(timeStamp, 15, 90);
             } else if (period == SoccerMatchPeriod.EXTRA_HALF_TIME) {
                 time = "MT";
             } else if (period == SoccerMatchPeriod.EXTRA_SECOND_HALF) {
-                time = formatTime(timeStamp, 120, 0);
+                time = formatTime(timeStamp, 15, 105);
             } else if (period == SoccerMatchPeriod.PENALTY_SHOOTOUT) {
                 time = "PEN";
             }

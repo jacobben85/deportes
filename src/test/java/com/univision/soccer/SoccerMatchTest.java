@@ -14,6 +14,17 @@ import java.util.Locale;
  */
 public class SoccerMatchTest {
 
+    Date dateNow = new Date();
+    Date date2MinAgo = new Date(dateNow.getTime() - (2 * 60000));
+    Date date15MinAgo = new Date(dateNow.getTime() - (15 * 60000));
+    Date date17MinAgo = new Date(dateNow.getTime() - (17 * 60000));
+    Date date35MinAgo = new Date(dateNow.getTime() - (35 * 60000));
+    Date date47MinAgo = new Date(dateNow.getTime() - (47 * 60000));
+    Date date60MinAgo = new Date(dateNow.getTime() - (60 * 60000));
+    Date date92MinAgo = new Date(dateNow.getTime() - (92 * 60000));
+    Date date107MinAgo = new Date(dateNow.getTime() - (107 * 60000));
+    Date date122MinAgo = new Date(dateNow.getTime() - (122 * 60000));
+
     @Test
     public void testRenderMatchDate() throws Exception {
         SoccerMatch soccerMatch = new SoccerMatch();
@@ -28,12 +39,9 @@ public class SoccerMatchTest {
         SoccerMatch soccerMatch = new SoccerMatch();
         soccerMatch.setSoccerMatchStatus(SoccerMatchStatus.LIVE);
         soccerMatch.setSoccerMatchPeriod(SoccerMatchPeriod.FIRST_HALF);
-        Date dateNow = new Date();
-
-        Date date35MinAgo = new Date(dateNow.getTime() - (35 * 60000));
 
         soccerMatch.setMatchPeriod(date35MinAgo);
-        soccerMatch.setMatchTime(dateNow);
+        soccerMatch.setMatchTime(date35MinAgo);
 
         DateTimeZone zone = DateTimeZone.forID("America/New_York");
         Locale locale = Locale.getDefault();
@@ -47,12 +55,9 @@ public class SoccerMatchTest {
         SoccerMatch soccerMatch = new SoccerMatch();
         soccerMatch.setSoccerMatchStatus(SoccerMatchStatus.LIVE);
         soccerMatch.setSoccerMatchPeriod(SoccerMatchPeriod.FIRST_HALF);
-        Date dateNow = new Date();
-
-        Date date47MinAgo = new Date(dateNow.getTime() - (47 * 60000));
 
         soccerMatch.setMatchPeriod(date47MinAgo);
-        soccerMatch.setMatchTime(dateNow);
+        soccerMatch.setMatchTime(date47MinAgo);
 
         DateTimeZone zone = DateTimeZone.forID("America/New_York");
         Locale locale = Locale.getDefault();
@@ -62,22 +67,34 @@ public class SoccerMatchTest {
     }
 
     @Test
-    public void testRenderMatchTimeSecondHalf60Min() throws Exception {
+    public void testRenderMatchTimeSecondHalf47Min() throws Exception {
         SoccerMatch soccerMatch = new SoccerMatch();
         soccerMatch.setSoccerMatchStatus(SoccerMatchStatus.LIVE);
         soccerMatch.setSoccerMatchPeriod(SoccerMatchPeriod.SECOND_HALF);
-        Date dateNow = new Date();
 
-        Date date60MinAgo = new Date(dateNow.getTime() - (60 * 60000));
-
-        soccerMatch.setMatchPeriod(date60MinAgo);
-        soccerMatch.setMatchTime(dateNow);
+        soccerMatch.setMatchPeriod(date2MinAgo);
+        soccerMatch.setMatchTime(date47MinAgo);
 
         DateTimeZone zone = DateTimeZone.forID("America/New_York");
         Locale locale = Locale.getDefault();
 
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
-        System.out.printf(time);
+        Assert.assertEquals("47'", time);
+    }
+
+    @Test
+    public void testRenderMatchTimeSecondHalf60Min() throws Exception {
+        SoccerMatch soccerMatch = new SoccerMatch();
+        soccerMatch.setSoccerMatchStatus(SoccerMatchStatus.LIVE);
+        soccerMatch.setSoccerMatchPeriod(SoccerMatchPeriod.SECOND_HALF);
+
+        soccerMatch.setMatchPeriod(date15MinAgo);
+        soccerMatch.setMatchTime(date60MinAgo);
+
+        DateTimeZone zone = DateTimeZone.forID("America/New_York");
+        Locale locale = Locale.getDefault();
+
+        String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
         Assert.assertEquals("60'", time);
     }
 
@@ -86,12 +103,9 @@ public class SoccerMatchTest {
         SoccerMatch soccerMatch = new SoccerMatch();
         soccerMatch.setSoccerMatchStatus(SoccerMatchStatus.LIVE);
         soccerMatch.setSoccerMatchPeriod(SoccerMatchPeriod.SECOND_HALF);
-        Date dateNow = new Date();
 
-        Date date60MinAgo = new Date(dateNow.getTime() - (92 * 60000));
-
-        soccerMatch.setMatchPeriod(date60MinAgo);
-        soccerMatch.setMatchTime(dateNow);
+        soccerMatch.setMatchPeriod(date47MinAgo);
+        soccerMatch.setMatchTime(date92MinAgo);
 
         DateTimeZone zone = DateTimeZone.forID("America/New_York");
         Locale locale = Locale.getDefault();
@@ -105,18 +119,15 @@ public class SoccerMatchTest {
         SoccerMatch soccerMatch = new SoccerMatch();
         soccerMatch.setSoccerMatchStatus(SoccerMatchStatus.LIVE);
         soccerMatch.setSoccerMatchPeriod(SoccerMatchPeriod.EXTRA_FIRST_HALF);
-        Date dateNow = new Date();
 
-        Date date60MinAgo = new Date(dateNow.getTime() - (92 * 60000));
-
-        soccerMatch.setMatchPeriod(date60MinAgo);
-        soccerMatch.setMatchTime(dateNow);
+        soccerMatch.setMatchPeriod(date2MinAgo);
+        soccerMatch.setMatchTime(date92MinAgo);
 
         DateTimeZone zone = DateTimeZone.forID("America/New_York");
         Locale locale = Locale.getDefault();
 
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
-        Assert.assertEquals("90' + 2'", time);
+        Assert.assertEquals("92'", time);
     }
 
     @Test
@@ -124,12 +135,9 @@ public class SoccerMatchTest {
         SoccerMatch soccerMatch = new SoccerMatch();
         soccerMatch.setSoccerMatchStatus(SoccerMatchStatus.LIVE);
         soccerMatch.setSoccerMatchPeriod(SoccerMatchPeriod.EXTRA_FIRST_HALF);
-        Date dateNow = new Date();
 
-        Date date107MinAgo = new Date(dateNow.getTime() - (107 * 60000));
-
-        soccerMatch.setMatchPeriod(date107MinAgo);
-        soccerMatch.setMatchTime(dateNow);
+        soccerMatch.setMatchPeriod(date17MinAgo);
+        soccerMatch.setMatchTime(date107MinAgo);
 
         DateTimeZone zone = DateTimeZone.forID("America/New_York");
         Locale locale = Locale.getDefault();
@@ -143,12 +151,9 @@ public class SoccerMatchTest {
         SoccerMatch soccerMatch = new SoccerMatch();
         soccerMatch.setSoccerMatchStatus(SoccerMatchStatus.LIVE);
         soccerMatch.setSoccerMatchPeriod(SoccerMatchPeriod.EXTRA_SECOND_HALF);
-        Date dateNow = new Date();
 
-        Date date107MinAgo = new Date(dateNow.getTime() - (107 * 60000));
-
-        soccerMatch.setMatchPeriod(date107MinAgo);
-        soccerMatch.setMatchTime(dateNow);
+        soccerMatch.setMatchPeriod(date2MinAgo);
+        soccerMatch.setMatchTime(date107MinAgo);
 
         DateTimeZone zone = DateTimeZone.forID("America/New_York");
         Locale locale = Locale.getDefault();
@@ -162,12 +167,9 @@ public class SoccerMatchTest {
         SoccerMatch soccerMatch = new SoccerMatch();
         soccerMatch.setSoccerMatchStatus(SoccerMatchStatus.LIVE);
         soccerMatch.setSoccerMatchPeriod(SoccerMatchPeriod.EXTRA_SECOND_HALF);
-        Date dateNow = new Date();
 
-        Date date122MinAgo = new Date(dateNow.getTime() - (122 * 60000));
-
-        soccerMatch.setMatchPeriod(date122MinAgo);
-        soccerMatch.setMatchTime(dateNow);
+        soccerMatch.setMatchPeriod(date17MinAgo);
+        soccerMatch.setMatchTime(date122MinAgo);
 
         DateTimeZone zone = DateTimeZone.forID("America/New_York");
         Locale locale = Locale.getDefault();
