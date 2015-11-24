@@ -1,9 +1,6 @@
 package com.univision.deportes.feedsyn;
 
 import org.junit.BeforeClass;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 import org.skyscreamer.jsonassert.JSONAssert;
 
 import java.io.IOException;
@@ -15,7 +12,7 @@ import static com.jayway.awaitility.Awaitility.await;
 
 /**
  */
-@RunWith(Parameterized.class)
+//@RunWith(Parameterized.class)
 public class FeedProcessorTest {
 
     private static FeedProcessor fp;
@@ -41,7 +38,7 @@ public class FeedProcessorTest {
         ct = new CompareTool();
     }
 
-    @Parameterized.Parameters
+//    @Parameterized.Parameters
     public static List<Object[]> data() {
         return Arrays.asList(new Object[][] {
                 {"832696"},
@@ -66,7 +63,6 @@ public class FeedProcessorTest {
 //        return Arrays.asList(new Object[1000][0]);
     }
 
-    @Test
     public void testProcessFeedStats() throws InterruptedException {
         String response = null;
         try {
@@ -129,7 +125,6 @@ public class FeedProcessorTest {
         return true;
     }
 
-    @Test
     public void testCompareJson() {
         ct.compareJson(eventId, "stats");
         ct.compareJson(eventId, "commentary");
