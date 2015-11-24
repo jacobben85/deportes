@@ -16,9 +16,12 @@ import java.util.Locale;
  */
 public class SoccerMatch {
 
-    private static String formatTime(Date timestamp, int threshold, int offset) {
+    private static String formatTime(Date timestamp, int threshold, int offset, DateTimeZone timezone) {
         DateTime gameTimestamp = new DateTime(timestamp);
         DateTime currentTime = new DateTime();
+        if (timezone != null) {
+            //currentTime = currentTime.withZone(timezone);
+        }
         Duration duration = new Duration(gameTimestamp, currentTime);
         long minutes = duration.getStandardMinutes();
         StringBuilder minuteBuilder = new StringBuilder();
@@ -81,17 +84,17 @@ public class SoccerMatch {
         } else if (status == SoccerMatchStatus.LIVE) {
             Date timeStamp = soccerMatch.getSoccerMatchPeriodTimeStamp();
             if (period == SoccerMatchPeriod.FIRST_HALF) {
-                time = formatTime(timeStamp, 45, 0);
+                time = formatTime(timeStamp, 45, 0, timezone);
             } else if (period == SoccerMatchPeriod.SECOND_HALF) {
-                time = formatTime(timeStamp, 45, 45);
+                time = formatTime(timeStamp, 45, 45, timezone);
             } else if (period == SoccerMatchPeriod.EXTRA_TIME) {
                 time = "TE";
             } else if (period == SoccerMatchPeriod.EXTRA_FIRST_HALF) {
-                time = formatTime(timeStamp, 15, 90);
+                time = formatTime(timeStamp, 15, 90, timezone);
             } else if (period == SoccerMatchPeriod.EXTRA_HALF_TIME) {
                 time = "MT";
             } else if (period == SoccerMatchPeriod.EXTRA_SECOND_HALF) {
-                time = formatTime(timeStamp, 15, 105);
+                time = formatTime(timeStamp, 15, 105, timezone);
             } else if (period == SoccerMatchPeriod.PENALTY_SHOOTOUT) {
                 time = "PEN";
             }

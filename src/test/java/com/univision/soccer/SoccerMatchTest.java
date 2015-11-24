@@ -25,13 +25,14 @@ public class SoccerMatchTest {
     Date date107MinAgo = new Date(dateNow.getTime() - (107 * 60000));
     Date date122MinAgo = new Date(dateNow.getTime() - (122 * 60000));
 
+    DateTimeZone zone = DateTimeZone.forID("Asia/Singapore");
+    Locale locale = Locale.getDefault();
+
     @Test
     public void testRenderMatchDate() throws Exception {
         SoccerMatch soccerMatch = new SoccerMatch();
-        DateTimeZone zone = DateTimeZone.forID("America/New_York");
-        Locale locale = Locale.getDefault();
         String date = SoccerMatch.renderMatchDate(soccerMatch, zone, locale);
-        System.out.println(date);
+        System.out.printf(date);
     }
 
     @Test
@@ -42,9 +43,6 @@ public class SoccerMatchTest {
 
         soccerMatch.setMatchPeriod(date35MinAgo);
         soccerMatch.setMatchTime(date35MinAgo);
-
-        DateTimeZone zone = DateTimeZone.forID("America/New_York");
-        Locale locale = Locale.getDefault();
 
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
         Assert.assertEquals("35'", time);
@@ -59,9 +57,6 @@ public class SoccerMatchTest {
         soccerMatch.setMatchPeriod(date47MinAgo);
         soccerMatch.setMatchTime(date47MinAgo);
 
-        DateTimeZone zone = DateTimeZone.forID("America/New_York");
-        Locale locale = Locale.getDefault();
-
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
         Assert.assertEquals("45' + 2'", time);
     }
@@ -74,9 +69,6 @@ public class SoccerMatchTest {
 
         soccerMatch.setMatchPeriod(date2MinAgo);
         soccerMatch.setMatchTime(date47MinAgo);
-
-        DateTimeZone zone = DateTimeZone.forID("America/New_York");
-        Locale locale = Locale.getDefault();
 
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
         Assert.assertEquals("47'", time);
@@ -91,9 +83,6 @@ public class SoccerMatchTest {
         soccerMatch.setMatchPeriod(date15MinAgo);
         soccerMatch.setMatchTime(date60MinAgo);
 
-        DateTimeZone zone = DateTimeZone.forID("America/New_York");
-        Locale locale = Locale.getDefault();
-
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
         Assert.assertEquals("60'", time);
     }
@@ -106,9 +95,6 @@ public class SoccerMatchTest {
 
         soccerMatch.setMatchPeriod(date47MinAgo);
         soccerMatch.setMatchTime(date92MinAgo);
-
-        DateTimeZone zone = DateTimeZone.forID("America/New_York");
-        Locale locale = Locale.getDefault();
 
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
         Assert.assertEquals("90' + 2'", time);
@@ -123,9 +109,6 @@ public class SoccerMatchTest {
         soccerMatch.setMatchPeriod(date2MinAgo);
         soccerMatch.setMatchTime(date92MinAgo);
 
-        DateTimeZone zone = DateTimeZone.forID("America/New_York");
-        Locale locale = Locale.getDefault();
-
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
         Assert.assertEquals("92'", time);
     }
@@ -138,9 +121,6 @@ public class SoccerMatchTest {
 
         soccerMatch.setMatchPeriod(date17MinAgo);
         soccerMatch.setMatchTime(date107MinAgo);
-
-        DateTimeZone zone = DateTimeZone.forID("America/New_York");
-        Locale locale = Locale.getDefault();
 
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
         Assert.assertEquals("105' + 2'", time);
@@ -155,9 +135,6 @@ public class SoccerMatchTest {
         soccerMatch.setMatchPeriod(date2MinAgo);
         soccerMatch.setMatchTime(date107MinAgo);
 
-        DateTimeZone zone = DateTimeZone.forID("America/New_York");
-        Locale locale = Locale.getDefault();
-
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
         Assert.assertEquals("107'", time);
     }
@@ -170,9 +147,6 @@ public class SoccerMatchTest {
 
         soccerMatch.setMatchPeriod(date17MinAgo);
         soccerMatch.setMatchTime(date122MinAgo);
-
-        DateTimeZone zone = DateTimeZone.forID("America/New_York");
-        Locale locale = Locale.getDefault();
 
         String time = SoccerMatch.renderMatchTime(soccerMatch, zone, locale);
         Assert.assertEquals("120' + 2'", time);
