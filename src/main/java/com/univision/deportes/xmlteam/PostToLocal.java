@@ -103,7 +103,7 @@ public class PostToLocal {
         List<String> feedUrls = getSportsMLDocURLs(response);
 
         for (String feedUrl : feedUrls) {
-            String feedResponse = getXMLTeamURL("http://feed5.xmlteam.com/sportsml/files/" + feedUrl);
+            String feedResponse = getXMLTeamURL("http://sw5staging.xmlteam.com/sportsml/files/" + feedUrl);
             InputStream stream = new ByteArrayInputStream(feedResponse.getBytes(StandardCharsets.UTF_8));
             String filename = generateFileName(feedUrl);
 
