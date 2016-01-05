@@ -37,7 +37,7 @@ public class Standalone {
     public String process(InputStream xml) throws IOException {
 
         InputStream xsl1 = this.getClass().getClassLoader().getResourceAsStream("xsl/xmlteam/bbc-to-xts.xsl");
-        String response1 = XmlTeamNormalize.transformer(xml, xsl1, true);
+        String response1 = XmlTeamNormalize.transformer(xml, xsl1, false);
 
         InputStream xml2 = new ByteArrayInputStream(response1.getBytes());
         InputStream xsl2 = this.getClass().getClassLoader().getResourceAsStream("xsl/xmlteam/xts-to-2.2.xsl");
@@ -54,7 +54,7 @@ public class Standalone {
         String json = "";
         try {
             json = XmlTeamNormalize.xmlToJson(response4, true);
-            if (false) {
+            if (true) {
                 System.out.println(json);
             }
         } catch (XMLStreamException e) {

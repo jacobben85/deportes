@@ -13,19 +13,20 @@ public class StandaloneTest {
         Standalone standalone = new Standalone();
         try {
 
-            String eventId = "832457";
-            String startTime = "20150922T010000-0400";
-            String endTime = "20150924T000000-0400";
+            String eventId = "806425"; //EFBO787816
+            //String startTime = "20150922T010000-0400";
+            String startTime = "PT5M";
+            //String endTime = "20150924T000000-0400";
 
             String fixtureKeys = "event-stats,event-stats-progressive";
-            String url = "http://feed5.xmlteam.com/api/feeds?" +
+            String url = "http://sw5staging.xmlteam.com/api/feeds?" +
                     "start=" + startTime +
-                    "&end=" + endTime +
                     "&publisher-keys=optasports.com" +
                     "&sport-keys=15054000" +
                     "&fixture-keys=" + fixtureKeys +
                     "&format=xml" +
                     "&event-keys=EFBO";
+            System.out.println(url + eventId);
             standalone.fetchLinksAndProcess(url + eventId, eventId);
         } catch (IOException e) {
             e.printStackTrace();
