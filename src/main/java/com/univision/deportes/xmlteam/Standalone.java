@@ -44,17 +44,25 @@ public class Standalone {
         String response2 = XmlTeamNormalize.transformer(xml2, xsl2, false);
 
         InputStream xml3 = new ByteArrayInputStream(response2.getBytes());
-        InputStream xsl3 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/normalize.xsl");
+        InputStream xsl3 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/event-reports.xsl");
         String response3 = XmlTeamNormalize.transformer(xml3, xsl3, false);
 
         InputStream xml4 = new ByteArrayInputStream(response3.getBytes());
-        InputStream xsl4 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/processingInstructions.xsl");
+        InputStream xsl4 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/normalize.xsl");
         String response4 = XmlTeamNormalize.transformer(xml4, xsl4, false);
+
+        InputStream xml5 = new ByteArrayInputStream(response4.getBytes());
+        InputStream xsl5 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/processingInstructions.xsl");
+        String response5 = XmlTeamNormalize.transformer(xml5, xsl5, false);
+
+        InputStream xml6 = new ByteArrayInputStream(response5.getBytes());
+        InputStream xsl6 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/sports-data-wrapper.xsl");
+        String response6 = XmlTeamNormalize.transformer(xml6, xsl6, false);
 
         String json = "";
         try {
-            json = XmlTeamNormalize.xmlToJson(response4, true);
-            if (true) {
+            json = XmlTeamNormalize.xmlToJson(response6, true);
+            if (false) {
                 System.out.println(json);
             }
         } catch (XMLStreamException e) {
@@ -155,17 +163,18 @@ public class Standalone {
         return xmlname.substring(0, xmlname.length() - 4) + ".json";
     }
 
-    public void fetchLinksAndProcess(String url, String eventId) throws IOException {
+    public void fetchLinksAndProcess(String url, String folder) throws IOException {
         String response = getXMLTeamURL(url);
         List<String> feedUrls = getSportsMLDocURLs(response);
 
         for (String feedUrl : feedUrls) {
-            String feedResponse = getXMLTeamURL("http://feed5.xmlteam.com/sportsml/files/" + feedUrl);
+            System.out.println("processing : " + feedUrl);
+            String feedResponse = getXMLTeamURL("http://sw5staging.xmlteam.com/sportsml/files/" + feedUrl);
             InputStream stream = new ByteArrayInputStream(feedResponse.getBytes(StandardCharsets.UTF_8));
             String filename = generateFileName(feedUrl);
             String json = process(stream);
 
-            File file = new File("json/" + eventId + "/" + filename);
+            File file = new File("json/" + folder + "/" + filename);
             file.getParentFile().mkdirs();
             PrintWriter writer = new PrintWriter(file, "UTF-8");
             writer.println(json);
