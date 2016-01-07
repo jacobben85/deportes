@@ -15,7 +15,7 @@ public class StandaloneTest {
 
             String folder = "processed";
             String eventId = "787816"; //EFBO787816
-            String startTime = "PT1H";
+            String startTime = "PT20M";
 
             //String fixtureKeys = "event-stats,event-stats-progressive";
             String url = "http://sw5staging.xmlteam.com/api/feeds?" +

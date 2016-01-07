@@ -33,7 +33,7 @@ import static org.apache.http.HttpHeaders.USER_AGENT;
  */
 public class PostToLocal {
 
-    private static String postUrl = "http://local.cms.uvn.io/feeds/xml-team";
+    private static String postUrl = "http://local2.cms.uvn.io/feeds/xml-team";
 
     private String getXMLTeamURL(String url) throws IOException {
         URI uri = URI.create(url);

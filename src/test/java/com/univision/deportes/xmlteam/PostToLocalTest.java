@@ -10,7 +10,7 @@ public class PostToLocalTest {
     @Test
     public void testFetchLinksAndProcess() throws Exception {
         String eventId = "803840";
-        String startTime = "P5D";
+        String startTime = "P15D";
 
         String fixtureKeys = "event-stats,event-stats-progressive";
         String url = "http://sw5staging.xmlteam.com/api/feeds?" +
