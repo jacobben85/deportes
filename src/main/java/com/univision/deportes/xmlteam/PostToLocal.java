@@ -33,9 +33,10 @@ import static org.apache.http.HttpHeaders.USER_AGENT;
  */
 public class PostToLocal {
 
-    private static String postUrl = "http://local2.cms.uvn.io/feeds/xml-team";
+    private static String postUrl = "http://performance.univision.psdops.com/feeds/xml-team";
 
     private String getXMLTeamURL(String url) throws IOException {
+
         URI uri = URI.create(url);
         HttpClient client = HttpClientBuilder.create().build();
         HttpGet httpGet = new HttpGet();
@@ -72,6 +73,7 @@ public class PostToLocal {
                 Node node = nodeList.item(index);
                 urls.add(node.getTextContent());
             }
+            System.out.println("url count at this point : " + urls.size());
 
             // Page through the manifest if there is more.
             String nextExpression = "//metadata/next/text()";
@@ -79,6 +81,7 @@ public class PostToLocal {
 
             // Recursively call next page.
             if (next != null && !next.isEmpty()) {
+                System.out.println(next);
                 urls.addAll( getSportsMLDocURLs(getXMLTeamURL(next)) );
             }
 
@@ -102,8 +105,14 @@ public class PostToLocal {
         String response = getXMLTeamURL(url);
         List<String> feedUrls = getSportsMLDocURLs(response);
 
+        System.out.println("total items count : " + feedUrls.size());
+        processLinks(feedUrls);
+    }
+
+    void processLinks(List<String> feedUrls) throws IOException {
+
         for (String feedUrl : feedUrls) {
-            String feedResponse = getXMLTeamURL("http://sw5staging.xmlteam.com/sportsml/files/" + feedUrl);
+            String feedResponse = getXMLTeamURL("http://staging.xmlteam.com/sportsml/files/" + feedUrl);
             InputStream stream = new ByteArrayInputStream(feedResponse.getBytes(StandardCharsets.UTF_8));
             String filename = generateFileName(feedUrl);
 
@@ -115,6 +124,7 @@ public class PostToLocal {
 
             post.setHeader("User-Agent", USER_AGENT);
             post.setHeader("Content-Type", "application/xml");
+            //post.setHeader("Authorization", "Basic ZGVidWc6WG9vbmcxZWU=");
 
             entity = new ByteArrayEntity(xmlParser(stream).getBytes("UTF-8"));
             post.setEntity(entity);
@@ -131,7 +141,7 @@ public class PostToLocal {
             }
             System.out.println(result);
 
-            Thread.sleep(20000L);
+            //Thread.sleep(100L);
         }
     }
 

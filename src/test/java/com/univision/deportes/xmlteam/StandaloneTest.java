@@ -15,14 +15,14 @@ public class StandaloneTest {
 
             String folder = "processed";
             String eventId = "787816"; //EFBO787816
-            String startTime = "PT20M";
+            String startTime = "P2D";
 
-            //String fixtureKeys = "event-stats,event-stats-progressive";
+            String fixtureKeys = "event-reports";
             String url = "http://sw5staging.xmlteam.com/api/feeds?" +
                     "start=" + startTime +
                     "&publisher-keys=optasports.com" +
                     "&sport-keys=15054000" +
-                    //"&fixture-keys=" + fixtureKeys +
+                    "&fixture-keys=" + fixtureKeys +
                     //"&event-keys=EFBO" + eventId;
                     "&format=xml";
 
