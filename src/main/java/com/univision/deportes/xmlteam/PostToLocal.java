@@ -33,7 +33,7 @@ import static org.apache.http.HttpHeaders.USER_AGENT;
  */
 public class PostToLocal {
 
-    private static String postUrl = "http://performance.univision.psdops.com/feeds/xml-team";
+    private static String postUrl = "http://local2.cms.uvn.io/feeds/xml-team";
 
     private String getXMLTeamURL(String url) throws IOException {
 
@@ -109,7 +109,7 @@ public class PostToLocal {
         processLinks(feedUrls);
     }
 
-    void processLinks(List<String> feedUrls) throws IOException {
+    void processLinks(List<String> feedUrls) throws IOException, InterruptedException {
 
         for (String feedUrl : feedUrls) {
             String feedResponse = getXMLTeamURL("http://staging.xmlteam.com/sportsml/files/" + feedUrl);
@@ -141,7 +141,7 @@ public class PostToLocal {
             }
             System.out.println(result);
 
-            //Thread.sleep(100L);
+            Thread.sleep(500L);
         }
     }
 

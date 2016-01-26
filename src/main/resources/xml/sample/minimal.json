@@ -1,0 +1,172 @@
+{
+  "sports-content": {
+    "sports-metadata": {
+      "@fixture-key": "event-stats-minimal",
+      "@fixture-name": "Minimal Event Score and Stats",
+      "@language": "en-US",
+      "@document-class": "event-summary",
+      "sports-content-codes": {
+        "sports-content-code": [
+          {
+            "@code-name": "Opta",
+            "@code-key": "optasports.com",
+            "@code-type": "publisher"
+          },
+          {
+            "@code-name": "XML Team Solutions, Inc.",
+            "@code-key": "xmlteam.com",
+            "@code-type": "distributor"
+          },
+          {
+            "@code-name": "Soccer",
+            "@code-key": 15054000,
+            "@code-type": "sport"
+          },
+          {
+            "@code-key": 15,
+            "@code-type": "tournament"
+          },
+          {
+            "@code-name": "Opta Customer Test League",
+            "@code-key": "l.opta.test",
+            "@code-type": "league"
+          },
+          {
+            "@code-key": 2015,
+            "@code-type": "season"
+          },
+          {
+            "@code-key": "t.41",
+            "@code-type": "team"
+          },
+          {
+            "@code-key": "t.36",
+            "@code-type": "team"
+          }
+        ]
+      },
+      "@date-time": "2015-12-16T15:57:00+00:00",
+      "sports-property": [
+        {
+          "@value": "soccer:2015:15:event-stats-minimal::840464",
+          "@formal-name": "compound-key"
+        }
+      ],
+      "@doc-id": "xt.opta.reports-20151216155700-l.opta.test-2015-e.840464"
+    },
+    "@xmlns": "http://iptc.org/std/SportsML/2008-04-01/",
+    "@path-id": "-l.opta.test-2015-e.840464",
+    "sports-event": {
+      "team": [
+        {
+          "team-metadata": {
+            "@xmlns:bbc": "http://www.bbc.co.uk/sport/sports-data",
+            "@alignment": "away",
+            "name": {
+              "@first": "Birmingham City",
+              "@full": "Birmingham City",
+              "@abbreviation": "BIR",
+              "@nickname": "Birmingham City"
+            },
+            "@team-key": 41,
+            "@xmlns:xts": "http://www.xmlteam.com"
+          },
+          "official": {
+            "@id": "p.172632",
+            "player-metadata": {
+              "@xmlns:bbc": "http://www.bbc.co.uk/sport/sports-data",
+              "@player-key": "172632",
+              "name": {
+                "@first": "Demarai",
+                "@full": "Demarai Gray",
+                "@abbreviation": "",
+                "@last": "Gray"
+              },
+              "@xmlns:xts": "http://www.xmlteam.com"
+            }
+          },
+          "team-stats": {
+            "sub-score": [
+              {
+                "@period-value": "1",
+                "@score": "0"
+              },
+              {
+                "@period-value": "2",
+                "@score": "1"
+              }
+            ],
+            "@xmlns:bbc": "http://www.bbc.co.uk/sport/sports-data",
+            "@score": "1",
+            "@event-outcome": "win",
+            "@xmlns:xts": "http://www.xmlteam.com",
+            "@score-opposing": "0"
+          },
+          "@id": "t.41",
+          "player": []
+        },
+        {
+          "team-metadata": {
+            "@xmlns:bbc": "http://www.bbc.co.uk/sport/sports-data",
+            "@alignment": "home",
+            "name": {
+              "@first": "Brighton and Hove Albion",
+              "@full": "Brighton and Hove Albion",
+              "@abbreviation": "BHA",
+              "@nickname": "Brighton and Hove Albion"
+            },
+            "@team-key": 36,
+            "@xmlns:xts": "http://www.xmlteam.com"
+          },
+          "team-stats": {
+            "sub-score": [
+              {
+                "@period-value": "1",
+                "@score": "0"
+              },
+              {
+                "@period-value": "2",
+                "@score": "0"
+              }
+            ],
+            "@xmlns:bbc": "http://www.bbc.co.uk/sport/sports-data",
+            "@score": "0",
+            "@event-outcome": "loss",
+            "@xmlns:xts": "http://www.xmlteam.com",
+            "@score-opposing": "1"
+          },
+          "@id": "t.36"
+        }
+      ],
+      "event-metadata": {
+        "@event-status-note": "Result",
+        "@event-key": 840464,
+        "@event-outcome-type": "regular",
+        "@event-status": "post-event",
+        "@event-name": "Brighton and Hove Albion v Birmingham City",
+        "@start-date-time": "2015-12-16T15:00:00+00:00"
+      },
+      "event-actions": {
+        "event-actions-soccer": {
+          "action-soccer-score": [
+            {
+              "@created": "2015-12-16T15:41:21",
+              "@sequence-number": "1216154121",
+              "@team-idref": "t.41",
+              "@score-attempt-type": "regular",
+              "@period-value": "2",
+              "@minutes-elapsed": "46",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.172632",
+                  "@team-idref": "t.41",
+                  "@role": "scorer"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

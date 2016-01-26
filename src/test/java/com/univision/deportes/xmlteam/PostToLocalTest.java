@@ -9,17 +9,19 @@ public class PostToLocalTest {
 
     @Test
     public void testFetchLinksAndProcess() throws Exception {
-        //String eventId = "803840";
-        String startTime = "PT5M";
+        //String eventId = "840461";
+        String startTime = "20160119T000000-0500";
+        String endTime = "20160120T000000-0500";
 
-        String fixtureKeys = "event-reports";
+        //String fixtureKeys = "event-stats,event-stats-progressive";
         String url = "http://staging.xmlteam.com/api/feeds?" +
                 "start=" + startTime +
+                "&end=" + endTime +
                 "&publisher-keys=optasports.com" +
                 "&sport-keys=15054000" +
                 //"&fixture-keys=" + fixtureKeys +
                 //"&last-files-by=event-key&fixture-keys=event-stats,event-commentary,event-reports" +
-                "&format=xml";
+                "&format=xml";// +
                 //"&event-keys=EFBO" + eventId;
         System.out.println(url);
 
