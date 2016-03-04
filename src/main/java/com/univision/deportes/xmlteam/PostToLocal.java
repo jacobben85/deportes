@@ -124,7 +124,7 @@ public class PostToLocal {
 
             post.setHeader("User-Agent", USER_AGENT);
             post.setHeader("Content-Type", "application/xml");
-            //post.setHeader("Authorization", "Basic ZGVidWc6WG9vbmcxZWU=");
+            post.setHeader("Authorization", "Basic ZGVidWc6WG9vbmcxZWU=");
 
             entity = new ByteArrayEntity(xmlParser(stream).getBytes("UTF-8"));
             post.setEntity(entity);
@@ -141,7 +141,7 @@ public class PostToLocal {
             }
             System.out.println(result);
 
-            Thread.sleep(500L);
+            Thread.sleep(5000L);
         }
     }
 

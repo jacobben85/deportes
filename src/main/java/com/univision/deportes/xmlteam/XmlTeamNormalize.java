@@ -23,7 +23,7 @@ public class XmlTeamNormalize {
 
     public boolean process() {
 
-        InputStream xml1 = this.getClass().getClassLoader().getResourceAsStream("xml/sample/schedules.xml");
+        InputStream xml1 = this.getClass().getClassLoader().getResourceAsStream("xml/sample/roster.xml");
 
         InputStream xsl1 = this.getClass().getClassLoader().getResourceAsStream("xsl/xmlteam/bbc-to-xts.xsl");
         String response1 = transformer(xml1, xsl1, false);
@@ -33,17 +33,25 @@ public class XmlTeamNormalize {
         String response2 = transformer(xml2, xsl2, false);
 
         InputStream xml3 = new ByteArrayInputStream(response2.getBytes());
-        InputStream xsl3 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/normalize.xsl");
+        InputStream xsl3 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/event-reports.xsl");
         String response3 = transformer(xml3, xsl3, false);
 
         InputStream xml4 = new ByteArrayInputStream(response3.getBytes());
-        InputStream xsl4 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/processingInstructions.xsl");
+        InputStream xsl4 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/normalize.xsl");
         String response4 = transformer(xml4, xsl4, false);
 
-        System.out.println(response4);
+        InputStream xml5 = new ByteArrayInputStream(response4.getBytes());
+        InputStream xsl5 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/processingInstructions.xsl");
+        String response5 = transformer(xml5, xsl5, false);
+
+        InputStream xml6 = new ByteArrayInputStream(response5.getBytes());
+        InputStream xsl6 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/sports-data-wrapper.xsl");
+        String response6 = transformer(xml6, xsl6, false);
+
+        System.out.println(response6);
         String json = "";
         try {
-            json = xmlToJson(response4, true);
+            json = xmlToJson(response6, true);
             if (false) {
                 System.out.println(json);
             }
@@ -51,7 +59,9 @@ public class XmlTeamNormalize {
             e.printStackTrace();
         }
 
-        return !response1.isEmpty() && !response2.isEmpty() && !response3.isEmpty() && !json.isEmpty();
+        return !response1.isEmpty() && !response2.isEmpty() && !response3.isEmpty() &&
+                !response4.isEmpty() && !response5.isEmpty() &&
+                !json.isEmpty();
     }
 
     public static String transformer(InputStream xml, InputStream xsl, boolean print) {
