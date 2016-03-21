@@ -2,8 +2,8 @@ package com.univision.deportes.xmlteam;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
-import com.jbjohn.MapUtil;
-import com.jbjohn.model.Caster;
+import com.uvn.maputils.MapUtil;
+import com.uvn.maputils.model.Caster;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -148,7 +148,7 @@ public class Standalone {
     }
 
     private HashMap<String, Object> fsynSimulator(HashMap<String, Object> result) {
-        HashMap<String, Object> response = new HashMap<String, Object>();
+        HashMap<String, Object> response = new HashMap<>();
         result.put("ttl", 90);
         response.put("data", result);
         response.put("status", "success");
