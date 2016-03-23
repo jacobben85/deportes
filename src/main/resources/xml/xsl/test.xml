@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sports-content>
+
+<sports-content xmlns:exsl="http://exslt.org/common" xmlns:bbc="http://www.bbc.co.uk/sport/sports-data" path-id="soccer/l.lpfp.pt/event-summary/xt.opta.20140831221654-765698-post-event">
+    <sports-metadata date-time="2014-08-31T22:16:54+01:00" doc-id="xt.opta.20140831221654-765698-post-event" language="en-US" fixture-key="event-stats" document-class="event-summary" fixture-name="Event Score and Stats">
+        <sports-title />
+        <sports-content-codes>
+            <sports-content-code code-name="Opta" code-key="optasports.com" code-type="publisher" />
+            <sports-content-code code-name="XML Team Solutions, Inc." code-key="xmlteam.com" code-type="distributor" />
+            <sports-content-code code-type="sport" code-key="15054000" code-name="Soccer" />
+            <sports-content-code code-type="tournament" code-key="CFBB99" code-name="Portuguese Primeira Liga" code-source="bbc.co.uk" />
+            <sports-content-code code-type="league" code-key="l.lpfp.pt" code-name="Portuguese Primeira Liga" code-source="xmlteam.com" />
+            <sports-content-code code-type="season" code-key="2014" />
+            <sports-content-code code-type="team" code-key="TFBB1981" code-source="bbc.co.uk" />
+            <sports-content-code code-type="team" code-key="TFBB3540" code-source="bbc.co.uk" />
+        </sports-content-codes>
+    </sports-metadata>
+    <sports-event>
+        <event-metadata date-coverage-type="event" event-key="EFBO765698" event-status="post-event" bbc:result-status="certain" event-status-note="Result" start-date-time="2014-08-31T17:00:00+01:00" bbc:event-type="Regular" event-name="Penafiel v Paços de Ferreira" event-outcome-type="regular">
+            <event-metadata-soccer week="3" minutes-elapsed="90">
+                <time-adjustment period-extra-time-elapsed="3" />
+            </event-metadata-soccer>
+            <site>
+                <site-metadata site-key="VFBB5803">
+                    <name first="Estádio Municipal 25 de Abril" full="Estádio Municipal 25 de Abril" abbreviation="Estádio Municipal 25 de Abril" bbc:vide-code="Estádio Municipal 25 de Abril" />
+                    <home-location country="Portugal" />
+                </site-metadata>
+                <site-stats alignment="home" attendance="7000" />
+            </site>
+        </event-metadata>
+        <team id="EFBO765698-TFBB3540">
+            <team-metadata team-key="TFBB3540" alignment="home">
+                <name first="Penafiel" full="Penafiel" abbreviation="Penafiel" nickname="Penafiel" bbc:vide-code="Penafiel" />
+            </team-metadata>
+            <team-stats score="0" score-opposing="1" event-outcome="loss">
+                <sub-score period-value="1" score="0" />
+                <sub-score period-value="2" score="0" />
+            </team-stats>
+            <player id="PO111674">
+                <player-metadata player-key="PO111674" position-regular="goalkeeper" uniform-number="88" line-formation-position="Unknown" status="starter">
+                    <name first="Alireza" last="Haghighi" full="Alireza Haghighi" abbreviation="Haghighi" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO62122">
+                <player-metadata player-key="PO62122" position-regular="defender" uniform-number="14" line-formation-position="Unknown" status="starter">
+                    <name first="Joao Pedro" last="Azevedo Silva" full="Joao Pedro" abbreviation="Azevedo Silva" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO75769">
+                <player-metadata player-key="PO75769" position-regular="defender" uniform-number="21" line-formation-position="Unknown" status="starter">
+                    <name first="Nélson Ricardo" last="Cerqueira Rodrigues Lenho" full="Nélson Lenho" abbreviation="Cerqueira Rodrigues Lenho" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO58281">
+                <player-metadata player-key="PO58281" position-regular="defender" uniform-number="20" line-formation-position="Unknown" status="starter">
+                    <name first="Daniel Filipe Faria" last="Coelho" full="Dani Coelho" abbreviation="Coelho" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO109304">
+                <player-metadata player-key="PO109304" position-regular="defender" uniform-number="5" line-formation-position="Unknown" status="starter">
+                    <name first="Pedro Manuel" last="Mendes Ribeiro" full="Pedro Ribeiro" abbreviation="Mendes Ribeiro" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO168653">
+                <player-metadata player-key="PO168653" position-regular="midfielder" uniform-number="30" line-formation-position="Unknown" status="starter">
+                    <name first="Abílio Rafael" last="Barbosa de Sousa" full="Rafa Sousa" abbreviation="Barbosa de Sousa" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO52627">
+                <player-metadata player-key="PO52627" position-regular="midfielder" uniform-number="27" line-formation-position="Unknown" status="starter">
+                    <name first="Andre" last="Fontes" full="André Fontes" abbreviation="Fontes" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul cautions-total="1" />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO179208">
+                <player-metadata player-key="PO179208" position-regular="midfielder" uniform-number="6" line-formation-position="Unknown" status="starter">
+                    <name first="Helder Luis" last="Ribeiro da Silva Ferreira" full="Ferreira" abbreviation="Ribeiro da Silva Ferreira" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO177869">
+                <player-metadata player-key="PO177869" position-regular="forward" uniform-number="11" line-formation-position="Unknown" status="starter">
+                    <name first="Aldair Adulai" last="Djalo Baldé" full="Aldair" abbreviation="Djalo Baldé" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO57135">
+                <player-metadata player-key="PO57135" position-regular="forward" uniform-number="7" line-formation-position="Unknown" status="starter">
+                    <name first="Helder" last="Guedes" full="Helder Guedes" abbreviation="Guedes" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="65">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="0" />
+                        <stats-soccer-foul cautions-total="1" />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO44808">
+                <player-metadata player-key="PO44808" position-regular="forward" uniform-number="19" line-formation-position="Unknown" status="starter">
+                    <name first="Tiago André" last="Coelho Lopes" full="Rabiola" abbreviation="Coelho Lopes" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="57">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO101300">
+                <player-metadata player-key="PO101300" position-regular="defender" uniform-number="23" line-formation-position="Unknown" status="bench">
+                    <name first="Nuno Henrique" last="Gonçalves Nogueira" full="Nuno Henrique" abbreviation="Gonçalves Nogueira" />
+                </player-metadata>
+            </player>
+            <player id="PO39129">
+                <player-metadata player-key="PO39129" position-regular="forward" uniform-number="9" line-formation-position="Unknown" status="bench">
+                    <name first="Rui" last="Miguel Reis" full="Rui Miguel" abbreviation="Miguel Reis" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" time-played-total="33">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO89476">
+                <player-metadata player-key="PO89476" position-regular="midfielder" uniform-number="8" line-formation-position="Unknown" status="bench">
+                    <name first="Paulo Rafael" last="Grilo Neves" full="Paulo Grilo" abbreviation="Grilo Neves" />
+                </player-metadata>
+            </player>
+            <player id="PO179216">
+                <player-metadata player-key="PO179216" position-regular="midfielder" uniform-number="32" line-formation-position="Unknown" status="bench">
+                    <name first="Romeu" last="Ribeiro" full="Romeu Ribeiro" abbreviation="Ribeiro" />
+                </player-metadata>
+            </player>
+            <player id="PO38785">
+                <player-metadata player-key="PO38785" position-regular="goalkeeper" uniform-number="1" line-formation-position="Unknown" status="bench">
+                    <name first="Julio Manuel" last="Pires Coelho" full="Julio Coelho" abbreviation="Pires Coelho" />
+                </player-metadata>
+            </player>
+            <player id="PO38723">
+                <player-metadata player-key="PO38723" position-regular="defender" uniform-number="16" line-formation-position="Unknown" status="bench">
+                    <name first="Anthony" last="Da Silva" full="Tony" abbreviation="Da Silva" />
+                </player-metadata>
+            </player>
+            <player id="PO179218">
+                <player-metadata player-key="PO179218" position-regular="forward" uniform-number="99" line-formation-position="Unknown" status="bench">
+                    <name first="Davi" last="Mbala" full="Davi Mbala" abbreviation="Mbala" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" time-played-total="25">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="1" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <associate id="man44431">
+                <associate-metadata position="Manager" position-source="optasports.com" associate-key="man44431">
+                    <name first="Ricardo" last="Chéu" full="Ricardo Chéu" abbreviation="Chéu" />
+                </associate-metadata>
+            </associate>
+        </team>
+        <team id="EFBO765698-TFBB1981">
+            <team-metadata team-key="TFBB1981" alignment="away">
+                <name first="Paços de Ferreira" full="Paços de Ferreira" abbreviation="Paços de Ferreira" nickname="Paços de Ferreira" bbc:vide-code="Paços de Ferreira" />
+            </team-metadata>
+            <team-stats score="1" score-opposing="0" event-outcome="win">
+                <sub-score period-value="1" score="0" />
+                <sub-score period-value="2" score="1" />
+            </team-stats>
+            <player id="PO176200">
+                <player-metadata player-key="PO176200" position-regular="goalkeeper" uniform-number="1" line-formation-position="Unknown" status="starter">
+                    <name first="Rafael" last="Garcia Tonioli Defendi" full="Rafael Defendi" abbreviation="Garcia Tonioli Defendi" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive shutouts="1" goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO124907">
+                <player-metadata player-key="PO124907" position-regular="defender" uniform-number="5" line-formation-position="Unknown" status="starter">
+                    <name first="Hélder Filipe" last="Oliveira Lopes" full="Hélder Lopes" abbreviation="Oliveira Lopes" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive shutouts="1" goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO101554">
+                <player-metadata player-key="PO101554" position-regular="defender" uniform-number="6" line-formation-position="Unknown" status="starter">
+                    <name first="Ricardo José" last="Araujo Ferreira" full="Ricardo Ferreira" abbreviation="Araujo Ferreira" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive shutouts="1" goals-against-total="0" />
+                        <stats-soccer-foul cautions-total="1" />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO39005">
+                <player-metadata player-key="PO39005" position-regular="defender" uniform-number="19" line-formation-position="Unknown" status="starter">
+                    <name first="Ricardo Jorge Ferreira Pinto" last="Da Silva" full="Ricardo" abbreviation="Da Silva" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive shutouts="1" goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO168680">
+                <player-metadata player-key="PO168680" position-regular="defender" uniform-number="13" line-formation-position="Unknown" status="starter">
+                    <name first="Jaílson" last="de Lima Araújo" full="Jaílson" abbreviation="de Lima Araújo" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive shutouts="1" goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO56367">
+                <player-metadata player-key="PO56367" position-regular="midfielder" uniform-number="81" line-formation-position="Unknown" status="starter">
+                    <name first="Manuel José Azevedo" last="Vieira" full="Manuel José" abbreviation="Vieira" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="63">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO170271">
+                <player-metadata player-key="PO170271" position-regular="midfielder" uniform-number="88" line-formation-position="Unknown" status="starter">
+                    <name first="Jean" last="Seri" full="Jean Seri" abbreviation="Seri" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive shutouts="1" goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO78638">
+                <player-metadata player-key="PO78638" position-regular="midfielder" uniform-number="10" line-formation-position="Unknown" status="starter">
+                    <name first="Sergio" last="Oliveira" full="Sergio Oliveira" abbreviation="Oliveira" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive shutouts="1" goals-against-total="0" />
+                        <stats-soccer-foul cautions-total="1" />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO178651">
+                <player-metadata player-key="PO178651" position-regular="midfielder" uniform-number="7" line-formation-position="Unknown" status="starter">
+                    <name first="Nélson Alexandre" last="Farpelha" full="Minhoca" abbreviation="Farpelha" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="82">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO51123">
+                <player-metadata player-key="PO51123" position-regular="forward" uniform-number="9" line-formation-position="Unknown" status="starter">
+                    <name first="Cicero Casimiro" last="Sanchez Semedo" full="Cicero" abbreviation="Sanchez Semedo" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive goals-total="1" goals-left-foot="0" goals-right-foot="0" goals-head="0" shots-total="1" shots-on-goal-total="1" />
+                        <stats-soccer-defensive shutouts="1" goals-against-total="0" />
+                        <stats-soccer-foul cautions-total="1" />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO124462">
+                <player-metadata player-key="PO124462" position-regular="forward" uniform-number="16" line-formation-position="Unknown" status="starter">
+                    <name first="Paolo" last="Hurtado" full="Paolo Hurtado" abbreviation="Hurtado" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" events-started="1" time-played-total="16">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO179313">
+                <player-metadata player-key="PO179313" position-regular="midfielder" uniform-number="17" line-formation-position="Unknown" status="bench">
+                    <name first="Vasco André" last="Moreira da Rocha" full="Vasco Rocha" abbreviation="Moreira da Rocha" />
+                </player-metadata>
+            </player>
+            <player id="PO56110">
+                <player-metadata player-key="PO56110" position-regular="defender" uniform-number="15" line-formation-position="Unknown" status="bench">
+                    <name first="Nelson" last="Pedroso" full="Nelson Pedroso" abbreviation="Pedroso" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" time-played-total="8">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO77621">
+                <player-metadata player-key="PO77621" position-regular="goalkeeper" uniform-number="45" line-formation-position="Unknown" status="bench">
+                    <name first="António" last="Filipe Norinho de Carvalho" full="António Filipe" abbreviation="Filipe Norinho de Carvalho" />
+                </player-metadata>
+            </player>
+            <player id="PO166980">
+                <player-metadata player-key="PO166980" position-regular="midfielder" uniform-number="8" line-formation-position="Unknown" status="bench">
+                    <name first="Valkenedy" last="da Silva" full="Valkenedy da Silva" abbreviation="da Silva" />
+                </player-metadata>
+            </player>
+            <player id="PO166420">
+                <player-metadata player-key="PO166420" position-regular="defender" uniform-number="3" line-formation-position="Unknown" status="bench">
+                    <name first="Flávio" last="Boaventura" full="Flávio Boaventura" abbreviation="Boaventura" />
+                </player-metadata>
+            </player>
+            <player id="PO130594">
+                <player-metadata player-key="PO130594" position-regular="forward" uniform-number="12" line-formation-position="Unknown" status="bench">
+                    <name first="Edson" last="Rodrigues Farias" full="Edson" abbreviation="Rodrigues Farias" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" time-played-total="27">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="0" />
+                        <stats-soccer-foul cautions-total="1" />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <player id="PO110227">
+                <player-metadata player-key="PO110227" position-regular="forward" uniform-number="11" line-formation-position="Unknown" status="bench">
+                    <name first="Bruno Daniel" last="Pereira Castro Moreira" full="Bruno Moreira" abbreviation="Pereira Castro Moreira" />
+                </player-metadata>
+                <player-stats team-coverage="single-team" date-coverage-type="event" date-coverage-value="EFBO765698" time-played-total="74">
+                    <player-stats-soccer>
+                        <stats-soccer-offensive />
+                        <stats-soccer-defensive goals-against-total="0" />
+                        <stats-soccer-foul />
+                    </player-stats-soccer>
+                </player-stats>
+            </player>
+            <associate id="man41216">
+                <associate-metadata position="Manager" position-source="optasports.com" associate-key="man41216">
+                    <name first="Paulo" last="Fonseca" full="Paulo Fonseca" abbreviation="Fonseca" />
+                </associate-metadata>
+            </associate>
+        </team>
+        <officials>
+            <official>
+                <official-metadata official-key="PO42068" position="main-official">
+                    <name first="Joao" last="Capela" full="Joao Capela" abbreviation="Capela" />
+                </official-metadata>
+            </official>
+        </officials>
+        <event-actions>
+            <event-actions-soccer>
+                <action-soccer-penalty id="a.586397748" sequence-number="20140831T181752+0100" minutes-elapsed="60" date-time="2014-08-31T18:17:52+01:00" period-value="2" team-idref="EFBO765698-TFBB3540" recipient-type="player" recipient-idref="PO57135" penalty-level="yellow-card" />
+                <action-soccer-penalty id="a.151597180" sequence-number="20140831T184032+0100" minutes-elapsed="71" date-time="2014-08-31T18:40:32+01:00" period-value="2" team-idref="EFBO765698-TFBB3540" recipient-type="player" recipient-idref="PO52627" penalty-level="yellow-card" />
+                <action-soccer-penalty id="a.1319030092" sequence-number="20140831T184530+0100" minutes-elapsed="84" date-time="2014-08-31T18:45:30+01:00" period-value="2" team-idref="EFBO765698-TFBB3540" recipient-type="player" recipient-idref="PO62122" penalty-level="red-card" />
+                <action-soccer-substitution id="a.74873976" sequence-number="20140831T181708+0100" minutes-elapsed="57" date-time="2014-08-31T18:17:08+01:00" period-value="2" team-idref="EFBO765698-TFBB3540" person-replacing-position="forward" person-original-idref="PO44808" person-replacing-idref="PO39129" substitution-reason="Tactical" />
+                <action-soccer-substitution id="a.2065595170" sequence-number="20140831T182432+0100" minutes-elapsed="65" date-time="2014-08-31T18:24:32+01:00" period-value="2" team-idref="EFBO765698-TFBB3540" person-replacing-position="forward" person-original-idref="PO57135" person-replacing-idref="PO179218" substitution-reason="Tactical" />
+                <action-soccer-penalty id="a.1354302956" sequence-number="20140831T171949+0100" minutes-elapsed="19" date-time="2014-08-31T17:19:49+01:00" period-value="1" team-idref="EFBO765698-TFBB1981" recipient-type="player" recipient-idref="PO101554" penalty-level="yellow-card" />
+                <action-soccer-penalty id="a.1985879229" sequence-number="20140831T174256+0100" minutes-elapsed="42" date-time="2014-08-31T17:42:56+01:00" period-value="1" team-idref="EFBO765698-TFBB1981" recipient-type="player" recipient-idref="PO51123" penalty-level="yellow-card" />
+                <action-soccer-penalty id="a.127075832" sequence-number="20140831T184120+0100" minutes-elapsed="81" date-time="2014-08-31T18:41:20+01:00" period-value="2" team-idref="EFBO765698-TFBB1981" recipient-type="player" recipient-idref="PO130594" penalty-level="yellow-card" />
+                <action-soccer-penalty id="a.985487075" sequence-number="20140831T192024+0100" minutes-elapsed="90" date-time="2014-08-31T19:20:24+01:00" period-value="2" team-idref="EFBO765698-TFBB1981" recipient-type="player" recipient-idref="PO78638" penalty-level="yellow-card" />
+                <action-soccer-score id="a.1305411971" sequence-number="20140831T184054+0100" period-value="2" team-idref="EFBO765698-TFBB1981" score-attempt-type="regular" minutes-elapsed="79" bbc:score-away="1" bbc:score-home="0" date-time="2014-08-31T18:40:54+01:00">
+                    <action-soccer-play-participant player-idref="PO51123" team-idref="EFBO765698-TFBB1981" role="scorer" />
+                </action-soccer-score>
+                <action-soccer-substitution id="a.234206213" sequence-number="20140831T171620+0100" minutes-elapsed="16" date-time="2014-08-31T17:16:20+01:00" period-value="1" team-idref="EFBO765698-TFBB1981" person-replacing-position="forward" person-original-idref="PO124462" person-replacing-idref="PO110227" substitution-reason="Tactical" />
+                <action-soccer-substitution id="a.991747400" sequence-number="20140831T182109+0100" minutes-elapsed="63" date-time="2014-08-31T18:21:09+01:00" period-value="2" team-idref="EFBO765698-TFBB1981" person-replacing-position="forward" person-original-idref="PO56367" person-replacing-idref="PO130594" substitution-reason="Tactical" />
+                <action-soccer-substitution id="a.1586438666" sequence-number="20140831T184159+0100" minutes-elapsed="82" date-time="2014-08-31T18:41:59+01:00" period-value="2" team-idref="EFBO765698-TFBB1981" person-replacing-position="defender" person-original-idref="PO178651" person-replacing-idref="PO56110" substitution-reason="Tactical" />
+            </event-actions-soccer>
+        </event-actions>
+    </sports-event>
+</sports-content>
