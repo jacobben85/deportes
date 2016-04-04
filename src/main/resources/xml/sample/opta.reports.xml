@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sports-content>
+
+<sports-content xmlns:exsl="http://exslt.org/common" xmlns:bbc="http://www.bbc.co.uk/sport/sports-data" path-id="soccer/l.bundesliga.de/event-summary/xt.opta.reports-20160404172300">
+  <sports-metadata date-time="2016-04-04T17:23:00+01:00" doc-id="xt.opta.reports-20160404172300" language="en-US" fixture-key="event-reports" document-class="event-summary" fixture-name="Multiple Event Stats">
+    <sports-title>OPTA Football Results</sports-title>
+    <sports-content-codes>
+      <sports-content-code code-name="Opta" code-key="optasports.com" code-type="publisher" />
+      <sports-content-code code-name="XML Team Solutions, Inc." code-key="xmlteam.com" code-type="distributor" />
+      <sports-content-code code-type="sport" code-key="15054000" code-name="Soccer" />
+      <sports-content-code code-type="tournament" code-key="CFBB22" code-name="Bundesliga" code-source="bbc.co.uk" />
+      <sports-content-code code-type="league" code-key="l.bundesliga.de" code-name="Bundesliga" code-source="xmlteam.com" />
+      <sports-content-code code-type="season" code-key="2016" />
+    </sports-content-codes>
+  </sports-metadata>
+  <schedule>
+    <schedule-metadata team-coverage="multi-team" date-coverage-type="daily" date-coverage-value="2016" competition-scope="league" />
+    <sports-event>
+      <event-metadata date-coverage-type="event" event-key="EFBO810679" event-status="post-event" event-status-note="Result" start-date-time="2016-04-02T14:30:00+01:00" event-name="1. FSV Mainz 05 v FC Augsburg" event-outcome-type="regular">
+        <sports-content-codes />
+        <event-metadata-soccer />
+      </event-metadata>
+      <team>
+        <team-metadata team-key="TFBB1772" alignment="away">
+          <name first="FC Augsburg" full="FC Augsburg" abbreviation="FCA" nickname="FC Augsburg" bbc:vide-code="FC Augsburg" />
+        </team-metadata>
+        <team-stats score="2" score-opposing="4" event-outcome="loss">
+          <sub-score period-value="1" score="2" />
+          <sub-score period-value="2" score="0" />
+          <team-stats-soccer>
+            <stats-soccer-offensive goals-total="2" />
+            <stats-soccer-foul ejections-total="0" cautions-total="2" />
+          </team-stats-soccer>
+        </team-stats>
+        <player id="PO114549">
+          <player-metadata player-key="PO114549">
+            <name first="Dominik" last="Kohr" full="Dominik Kohr" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO49260">
+          <player-metadata player-key="PO49260">
+            <name first="Alexander" last="Esswein" full="Alexander Esswein" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO179597">
+          <player-metadata player-key="PO179597">
+            <name first="Philipp" last="Max" full="Philipp Max" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO93001">
+          <player-metadata player-key="PO93001">
+            <name first="Konstantinos" last="Stafylidis" full="Konstantinos Stafylidis" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO43889">
+          <player-metadata player-key="PO43889">
+            <name first="Raúl" last="Bobadilla" full="Raúl Bobadilla" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO16733">
+          <player-metadata player-key="PO16733">
+            <name first="Halil" last="Altintop" full="Halil Altintop" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO56482">
+          <player-metadata player-key="PO56482">
+            <name first="" last="Caiuby" full=" Caiuby" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO77865">
+          <player-metadata player-key="PO77865">
+            <name first="Ja-Cheol" last="Koo" full="Ja-Cheol Koo" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO11827">
+          <player-metadata player-key="PO11827">
+            <name first="Markus" last="Feulner" full="Markus Feulner" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO77865">
+          <player-metadata player-key="PO77865">
+            <name first="Ja-Cheol" last="Koo" full="Ja-Cheol Koo" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <team>
+        <team-metadata team-key="TFBB810" alignment="home">
+          <name first="1. FSV Mainz 05" full="1. FSV Mainz 05" abbreviation="M05" nickname="1. FSV Mainz 05" bbc:vide-code="1. FSV Mainz 05" />
+        </team-metadata>
+        <team-stats score="4" score-opposing="2" event-outcome="win">
+          <sub-score period-value="1" score="2" />
+          <sub-score period-value="2" score="2" />
+          <team-stats-soccer>
+            <stats-soccer-offensive goals-total="4" />
+            <stats-soccer-foul ejections-total="0" cautions-total="1" />
+          </team-stats-soccer>
+        </team-stats>
+        <player id="PO43573">
+          <player-metadata player-key="PO43573">
+            <name first="Fabian" last="Frei" full="Fabian Frei" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO48882">
+          <player-metadata player-key="PO48882">
+            <name first="Julian" last="Baumgartlinger" full="Julian Baumgartlinger" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO101047">
+          <player-metadata player-key="PO101047">
+            <name first="Yunus" last="Malli" full="Yunus Malli" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO186755">
+          <player-metadata player-key="PO186755">
+            <name first="Karim" last="Onisiwo" full="Karim Onisiwo" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO73028">
+          <player-metadata player-key="PO73028">
+            <name first="Christian" last="Clemens" full="Christian Clemens" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO74252">
+          <player-metadata player-key="PO74252">
+            <name first="Christoph" last="Moritz" full="Christoph Moritz" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO73028">
+          <player-metadata player-key="PO73028">
+            <name first="Christian" last="Clemens" full="Christian Clemens" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO126510">
+          <player-metadata player-key="PO126510">
+            <name first="Pablo" last="De Blasis" full="Pablo De Blasis" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO126510">
+          <player-metadata player-key="PO126510">
+            <name first="Pablo" last="De Blasis" full="Pablo De Blasis" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO73028">
+          <player-metadata player-key="PO73028">
+            <name first="Christian" last="Clemens" full="Christian Clemens" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO85597">
+          <player-metadata player-key="PO85597">
+            <name first="Gaëtan" last="Bussmann" full="Gaëtan Bussmann" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <event-actions>
+        <event-actions-soccer>
+          <action-soccer-substitution id="a.1628109552" sequence-number="2016-04-02T16:00:49" minutes-elapsed="74" date-time="2016-04-02T16:00:49+01:00" period-value="2" team-idref="TFBB810" person-original-idref="PO43573" person-replacing-idref="PO48882" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.27698087" sequence-number="2016-04-02T16:06:20" minutes-elapsed="79" date-time="2016-04-02T16:06:20+01:00" period-value="2" team-idref="TFBB810" person-original-idref="PO101047" person-replacing-idref="PO186755" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.1642017495" sequence-number="2016-04-02T16:14:07" minutes-elapsed="87" date-time="2016-04-02T16:14:07+01:00" period-value="2" team-idref="TFBB810" person-original-idref="PO73028" person-replacing-idref="PO74252" substitution-reason="Tactical" />
+          <action-soccer-score id="a.1834501526" sequence-number="2016-04-02T14:42:57" period-value="1" team-idref="TFBB810" score-attempt-type="regular" minutes-elapsed="13" date-time="2016-04-02T14:42:57+01:00">
+            <action-soccer-play-participant player-idref="PO73028" team-idref="TFBB810" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.776288046" sequence-number="2016-04-02T14:53:09" period-value="1" team-idref="TFBB810" score-attempt-type="regular" minutes-elapsed="24" date-time="2016-04-02T14:53:09+01:00">
+            <action-soccer-play-participant player-idref="PO126510" team-idref="TFBB810" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.650240899" sequence-number="2016-04-02T15:39:38" period-value="2" team-idref="TFBB810" score-attempt-type="regular" minutes-elapsed="53" date-time="2016-04-02T15:39:38+01:00">
+            <action-soccer-play-participant player-idref="PO126510" team-idref="TFBB810" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.424073000" sequence-number="2016-04-02T16:02:29" period-value="2" team-idref="TFBB810" score-attempt-type="regular" minutes-elapsed="76" date-time="2016-04-02T16:02:29+01:00">
+            <action-soccer-play-participant player-idref="PO73028" team-idref="TFBB810" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-penalty id="a.85597" sequence-number="2016-04-02T15:41:12" minutes-elapsed="54" date-time="2016-04-02T15:41:12+01:00" period-value="2" team-idref="TFBB810" recipient-type="player" recipient-idref="PO85597" penalty-level="yellow-card" />
+          <action-soccer-substitution id="a.1346974020" sequence-number="2016-04-02T15:52:59" minutes-elapsed="66" date-time="2016-04-02T15:52:59+01:00" period-value="2" team-idref="TFBB1772" person-original-idref="PO114549" person-replacing-idref="PO49260" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.914219879" sequence-number="2016-04-02T15:55:49" minutes-elapsed="69" date-time="2016-04-02T15:55:49+01:00" period-value="2" team-idref="TFBB1772" person-original-idref="PO179597" person-replacing-idref="PO93001" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.2145210655" sequence-number="2016-04-02T16:11:08" minutes-elapsed="84" date-time="2016-04-02T16:11:08+01:00" period-value="2" team-idref="TFBB1772" person-original-idref="PO43889" person-replacing-idref="PO16733" substitution-reason="Tactical" />
+          <action-soccer-score id="a.841232172" sequence-number="2016-04-02T14:38:39" period-value="1" team-idref="TFBB1772" score-attempt-type="regular" minutes-elapsed="9" date-time="2016-04-02T14:38:39+01:00">
+            <action-soccer-play-participant player-idref="PO56482" team-idref="TFBB1772" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.768237383" sequence-number="2016-04-02T15:09:11" period-value="1" team-idref="TFBB1772" score-attempt-type="regular" minutes-elapsed="40" date-time="2016-04-02T15:09:11+01:00">
+            <action-soccer-play-participant player-idref="PO77865" team-idref="TFBB1772" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-penalty id="a.11827" sequence-number="2016-04-02T15:43:38" minutes-elapsed="57" date-time="2016-04-02T15:43:38+01:00" period-value="2" team-idref="TFBB1772" recipient-type="player" recipient-idref="PO11827" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.77865" sequence-number="2016-04-02T15:58:49" minutes-elapsed="72" date-time="2016-04-02T15:58:49+01:00" period-value="2" team-idref="TFBB1772" recipient-type="player" recipient-idref="PO77865" penalty-level="yellow-card" />
+        </event-actions-soccer>
+      </event-actions>
+    </sports-event>
+    <sports-event>
+      <event-metadata date-coverage-type="event" event-key="EFBO810680" event-status="post-event" event-status-note="Result" start-date-time="2016-04-02T14:30:00+01:00" event-name="FC Ingolstadt 04 v FC Schalke 04" event-outcome-type="regular">
+        <sports-content-codes />
+        <event-metadata-soccer />
+      </event-metadata>
+      <team>
+        <team-metadata team-key="TFBB167" alignment="away">
+          <name first="FC Schalke 04" full="FC Schalke 04" abbreviation="S04" nickname="FC Schalke 04" bbc:vide-code="FC Schalke 04" />
+        </team-metadata>
+        <team-stats score="0" score-opposing="3" event-outcome="loss">
+          <sub-score period-value="1" score="0" />
+          <sub-score period-value="2" score="0" />
+          <team-stats-soccer>
+            <stats-soccer-offensive goals-total="0" />
+            <stats-soccer-foul ejections-total="0" cautions-total="5" />
+          </team-stats-soccer>
+        </team-stats>
+        <player id="PO42564">
+          <player-metadata player-key="PO42564">
+            <name first="Eric Maxim" last="Choupo-Moting" full="Eric Maxim Choupo-Moting" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO66959">
+          <player-metadata player-key="PO66959">
+            <name first="Younes" last="Belhanda" full="Younes Belhanda" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO119090">
+          <player-metadata player-key="PO119090">
+            <name first="Leon" last="Goretzka" full="Leon Goretzka" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO168083">
+          <player-metadata player-key="PO168083">
+            <name first="Alessandro" last="Schöpf" full="Alessandro Schöpf" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO49724">
+          <player-metadata player-key="PO49724">
+            <name first="Franco" last="Di Santo" full="Franco Di Santo" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO14941">
+          <player-metadata player-key="PO14941">
+            <name first="Klaas-Jan" last="Huntelaar" full="Klaas-Jan Huntelaar" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO141020">
+          <player-metadata player-key="PO141020">
+            <name first="Max" last="Meyer" full="Max Meyer" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO61572">
+          <player-metadata player-key="PO61572">
+            <name first="Uilson" last="de Souza Paula Júnior" full="Uilson de Souza Paula Júnior" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO182156">
+          <player-metadata player-key="PO182156">
+            <name first="Leroy" last="Sané" full="Leroy Sané" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO52231">
+          <player-metadata player-key="PO52231">
+            <name first="Roman" last="Neustädter" full="Roman Neustädter" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO60914">
+          <player-metadata player-key="PO60914">
+            <name first="Joel" last="Matip" full="Joel Matip" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <team>
+        <team-metadata team-key="TFBB2743" alignment="home">
+          <name first="FC Ingolstadt 04" full="FC Ingolstadt 04" abbreviation="FCI" nickname="FC Ingolstadt 04" bbc:vide-code="FC Ingolstadt 04" />
+        </team-metadata>
+        <team-stats score="3" score-opposing="0" event-outcome="win">
+          <sub-score period-value="1" score="2" />
+          <sub-score period-value="2" score="1" />
+          <team-stats-soccer>
+            <stats-soccer-offensive goals-total="3" />
+            <stats-soccer-foul ejections-total="0" cautions-total="1" />
+          </team-stats-soccer>
+        </team-stats>
+        <player id="PO60819">
+          <player-metadata player-key="PO60819">
+            <name first="Moritz" last="Hartmann" full="Moritz Hartmann" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO100887">
+          <player-metadata player-key="PO100887">
+            <name first="Mathew" last="Leckie" full="Mathew Leckie" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO93645">
+          <player-metadata player-key="PO93645">
+            <name first="Darío" last="Lezcano" full="Darío Lezcano" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO74376">
+          <player-metadata player-key="PO74376">
+            <name first="Almog" last="Cohen" full="Almog Cohen" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO84827">
+          <player-metadata player-key="PO84827">
+            <name first="Lukas" last="Hinterseer" full="Lukas Hinterseer" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO193461">
+          <player-metadata player-key="PO193461">
+            <name first="Maurice" last="Multhaup" full="Maurice Multhaup" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO60819">
+          <player-metadata player-key="PO60819">
+            <name first="Moritz" last="Hartmann" full="Moritz Hartmann" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO84827">
+          <player-metadata player-key="PO84827">
+            <name first="Lukas" last="Hinterseer" full="Lukas Hinterseer" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO93645">
+          <player-metadata player-key="PO93645">
+            <name first="Darío" last="Lezcano" full="Darío Lezcano" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO60307">
+          <player-metadata player-key="PO60307">
+            <name first="Pascal" last="Groß" full="Pascal Groß" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <event-actions>
+        <event-actions-soccer>
+          <action-soccer-substitution id="a.1021567396" sequence-number="2016-04-02T15:51:52" minutes-elapsed="64" date-time="2016-04-02T15:51:52+01:00" period-value="2" team-idref="TFBB2743" person-original-idref="PO60819" person-replacing-idref="PO100887" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.1556429865" sequence-number="2016-04-02T16:07:31" minutes-elapsed="79" date-time="2016-04-02T16:07:31+01:00" period-value="2" team-idref="TFBB2743" person-original-idref="PO93645" person-replacing-idref="PO74376" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.1593646556" sequence-number="2016-04-02T16:16:36" minutes-elapsed="88" date-time="2016-04-02T16:16:36+01:00" period-value="2" team-idref="TFBB2743" person-original-idref="PO84827" person-replacing-idref="PO193461" substitution-reason="Tactical" />
+          <action-soccer-score id="a.1689885668" sequence-number="2016-04-02T14:58:57" period-value="1" team-idref="TFBB2743" score-attempt-type="penalty" minutes-elapsed="29" date-time="2016-04-02T14:58:57+01:00">
+            <action-soccer-play-participant player-idref="PO60819" team-idref="TFBB2743" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.487148418" sequence-number="2016-04-02T15:16:30" period-value="1" team-idref="TFBB2743" score-attempt-type="regular" minutes-elapsed="47" date-time="2016-04-02T15:16:30+01:00">
+            <action-soccer-play-participant player-idref="PO84827" team-idref="TFBB2743" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.139766238" sequence-number="2016-04-02T15:53:48" period-value="2" team-idref="TFBB2743" score-attempt-type="regular" minutes-elapsed="65" date-time="2016-04-02T15:53:48+01:00">
+            <action-soccer-play-participant player-idref="PO93645" team-idref="TFBB2743" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-penalty id="a.60307" sequence-number="2016-04-02T15:07:26" minutes-elapsed="38" date-time="2016-04-02T15:07:26+01:00" period-value="1" team-idref="TFBB2743" recipient-type="player" recipient-idref="PO60307" penalty-level="yellow-card" />
+          <action-soccer-substitution id="a.1332395137" sequence-number="2016-04-02T15:50:22" minutes-elapsed="62" date-time="2016-04-02T15:50:22+01:00" period-value="2" team-idref="TFBB167" person-original-idref="PO42564" person-replacing-idref="PO66959" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.1984616419" sequence-number="2016-04-02T15:50:17" minutes-elapsed="62" date-time="2016-04-02T15:50:17+01:00" period-value="2" team-idref="TFBB167" person-original-idref="PO119090" person-replacing-idref="PO168083" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.1422223546" sequence-number="2016-04-02T16:02:05" minutes-elapsed="74" date-time="2016-04-02T16:02:05+01:00" period-value="2" team-idref="TFBB167" person-original-idref="PO49724" person-replacing-idref="PO14941" substitution-reason="Tactical" />
+          <action-soccer-penalty id="a.141020" sequence-number="2016-04-02T15:03:44" minutes-elapsed="34" date-time="2016-04-02T15:03:44+01:00" period-value="1" team-idref="TFBB167" recipient-type="player" recipient-idref="PO141020" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.61572" sequence-number="2016-04-02T15:04:55" minutes-elapsed="35" date-time="2016-04-02T15:04:55+01:00" period-value="1" team-idref="TFBB167" recipient-type="player" recipient-idref="PO61572" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.182156" sequence-number="2016-04-02T15:10:40" minutes-elapsed="41" date-time="2016-04-02T15:10:40+01:00" period-value="1" team-idref="TFBB167" recipient-type="player" recipient-idref="PO182156" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.52231" sequence-number="2016-04-02T16:08:37" minutes-elapsed="80" date-time="2016-04-02T16:08:37+01:00" period-value="2" team-idref="TFBB167" recipient-type="player" recipient-idref="PO52231" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.60914" sequence-number="2016-04-02T16:18:41" minutes-elapsed="90" date-time="2016-04-02T16:18:41+01:00" period-value="2" team-idref="TFBB167" recipient-type="player" recipient-idref="PO60914" penalty-level="yellow-card" />
+        </event-actions-soccer>
+      </event-actions>
+    </sports-event>
+    <sports-event>
+      <event-metadata date-coverage-type="event" event-key="EFBO810673" event-status="post-event" event-status-note="Result" start-date-time="2016-04-02T14:30:00+01:00" event-name="FC Bayern München v Eintracht Frankfurt" event-outcome-type="regular">
+        <sports-content-codes />
+        <event-metadata-soccer />
+      </event-metadata>
+      <team>
+        <team-metadata team-key="TFBB159" alignment="away">
+          <name first="Eintracht Frankfurt" full="Eintracht Frankfurt" abbreviation="SGE" nickname="Eintracht Frankfurt" bbc:vide-code="Eintracht Frankfurt" />
+        </team-metadata>
+        <team-stats score="0" score-opposing="1" event-outcome="loss">
+          <sub-score period-value="1" score="0" />
+          <sub-score period-value="2" score="0" />
+          <team-stats-soccer>
+            <stats-soccer-offensive goals-total="0" />
+            <stats-soccer-foul ejections-total="0" cautions-total="5" />
+          </team-stats-soccer>
+        </team-stats>
+        <player id="PO35174">
+          <player-metadata player-key="PO35174">
+            <name first="Szabolcs" last="Huszti" full="Szabolcs Huszti" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO120669">
+          <player-metadata player-key="PO120669">
+            <name first="Marc" last="Stendera" full="Marc Stendera" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO60841">
+          <player-metadata player-key="PO60841">
+            <name first="Haris" last="Seferovic" full="Haris Seferovic" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO78139">
+          <player-metadata player-key="PO78139">
+            <name first="Luc" last="Castaignos" full="Luc Castaignos" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO38464">
+          <player-metadata player-key="PO38464">
+            <name first="Änis" last="Ben-Hatira" full="Änis Ben-Hatira" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO85457">
+          <player-metadata player-key="PO85457">
+            <name first="Sonny" last="Kittel" full="Sonny Kittel" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO52026">
+          <player-metadata player-key="PO52026">
+            <name first="David" last="Abraham" full="David Abraham" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO38464">
+          <player-metadata player-key="PO38464">
+            <name first="Änis" last="Ben-Hatira" full="Änis Ben-Hatira" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO57500">
+          <player-metadata player-key="PO57500">
+            <name first="Timothy" last="Chandler" full="Timothy Chandler" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO120669">
+          <player-metadata player-key="PO120669">
+            <name first="Marc" last="Stendera" full="Marc Stendera" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO78139">
+          <player-metadata player-key="PO78139">
+            <name first="Luc" last="Castaignos" full="Luc Castaignos" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <team>
+        <team-metadata team-key="TFBB156" alignment="home">
+          <name first="FC Bayern München" full="FC Bayern München" abbreviation="FCB" nickname="FC Bayern München" bbc:vide-code="FC Bayern München" />
+        </team-metadata>
+        <team-stats score="1" score-opposing="0" event-outcome="win">
+          <sub-score period-value="1" score="1" />
+          <sub-score period-value="2" score="0" />
+          <team-stats-soccer>
+            <stats-soccer-offensive goals-total="1" />
+            <stats-soccer-foul ejections-total="0" cautions-total="2" />
+          </team-stats-soccer>
+        </team-stats>
+        <player id="PO56764">
+          <player-metadata player-key="PO56764">
+            <name first="Robert" last="Lewandowski" full="Robert Lewandowski" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO57195">
+          <player-metadata player-key="PO57195">
+            <name first="Douglas Costa" last="de Souza" full="Douglas Costa de Souza" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO69600">
+          <player-metadata player-key="PO69600">
+            <name first="Mario" last="Götze" full="Mario Götze" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO42565">
+          <player-metadata player-key="PO42565">
+            <name first="Arturo" last="Vidal" full="Arturo Vidal" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO28559">
+          <player-metadata player-key="PO28559">
+            <name first="Franck" last="Ribéry" full="Franck Ribéry" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO56764">
+          <player-metadata player-key="PO56764">
+            <name first="Robert" last="Lewandowski" full="Robert Lewandowski" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO69600">
+          <player-metadata player-key="PO69600">
+            <name first="Mario" last="Götze" full="Mario Götze" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <event-actions>
+        <event-actions-soccer>
+          <action-soccer-substitution id="a.747588937" sequence-number="2016-04-02T15:58:31" minutes-elapsed="71" date-time="2016-04-02T15:58:31+01:00" period-value="2" team-idref="TFBB156" person-original-idref="PO56764" person-replacing-idref="PO57195" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.1404831092" sequence-number="2016-04-02T16:12:33" minutes-elapsed="85" date-time="2016-04-02T16:12:33+01:00" period-value="2" team-idref="TFBB156" person-original-idref="PO69600" person-replacing-idref="PO42565" substitution-reason="Tactical" />
+          <action-soccer-score id="a.944615174" sequence-number="2016-04-02T14:50:20" period-value="1" team-idref="TFBB156" score-attempt-type="regular" minutes-elapsed="20" date-time="2016-04-02T14:50:20+01:00">
+            <action-soccer-play-participant player-idref="PO28559" team-idref="TFBB156" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-penalty id="a.56764" sequence-number="2016-04-02T15:11:53" minutes-elapsed="41" date-time="2016-04-02T15:11:53+01:00" period-value="1" team-idref="TFBB156" recipient-type="player" recipient-idref="PO56764" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.69600" sequence-number="2016-04-02T15:43:14" minutes-elapsed="55" date-time="2016-04-02T15:43:14+01:00" period-value="2" team-idref="TFBB156" recipient-type="player" recipient-idref="PO69600" penalty-level="yellow-card" />
+          <action-soccer-substitution id="a.1799834123" sequence-number="2016-04-02T15:36:12" minutes-elapsed="48" date-time="2016-04-02T15:36:12+01:00" period-value="2" team-idref="TFBB159" person-original-idref="PO35174" person-replacing-idref="PO120669" substitution-reason="Injury" />
+          <action-soccer-substitution id="a.2006860513" sequence-number="2016-04-02T15:46:12" minutes-elapsed="58" date-time="2016-04-02T15:46:12+01:00" period-value="2" team-idref="TFBB159" person-original-idref="PO60841" person-replacing-idref="PO78139" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.1797997418" sequence-number="2016-04-02T15:51:57" minutes-elapsed="64" date-time="2016-04-02T15:51:57+01:00" period-value="2" team-idref="TFBB159" person-original-idref="PO38464" person-replacing-idref="PO85457" substitution-reason="Tactical" />
+          <action-soccer-penalty id="a.52026" sequence-number="2016-04-02T15:11:54" minutes-elapsed="41" date-time="2016-04-02T15:11:54+01:00" period-value="1" team-idref="TFBB159" recipient-type="player" recipient-idref="PO52026" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.38464" sequence-number="2016-04-02T15:15:18" minutes-elapsed="45" date-time="2016-04-02T15:15:18+01:00" period-value="1" team-idref="TFBB159" recipient-type="player" recipient-idref="PO38464" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.57500" sequence-number="2016-04-02T15:36:44" minutes-elapsed="49" date-time="2016-04-02T15:36:44+01:00" period-value="2" team-idref="TFBB159" recipient-type="player" recipient-idref="PO57500" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.120669" sequence-number="2016-04-02T15:39:04" minutes-elapsed="51" date-time="2016-04-02T15:39:04+01:00" period-value="2" team-idref="TFBB159" recipient-type="player" recipient-idref="PO120669" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.78139" sequence-number="2016-04-02T16:21:31" minutes-elapsed="94" date-time="2016-04-02T16:21:31+01:00" period-value="2" team-idref="TFBB159" recipient-type="player" recipient-idref="PO78139" penalty-level="yellow-card" />
+        </event-actions-soccer>
+      </event-actions>
+    </sports-event>
+    <sports-event>
+      <event-metadata date-coverage-type="event" event-key="EFBO810677" event-status="post-event" event-status-note="Result" start-date-time="2016-04-02T14:30:00+01:00" event-name="Hannover 96 v Hamburger SV" event-outcome-type="regular">
+        <sports-content-codes />
+        <event-metadata-soccer />
+      </event-metadata>
+      <team>
+        <team-metadata team-key="TFBB161" alignment="away">
+          <name first="Hamburger SV" full="Hamburger SV" abbreviation="HSV" nickname="Hamburger SV" bbc:vide-code="Hamburger SV" />
+        </team-metadata>
+        <team-stats score="3" score-opposing="0" event-outcome="win">
+          <sub-score period-value="1" score="0" />
+          <sub-score period-value="2" score="3" />
+        </team-stats>
+        <player id="PO116335">
+          <player-metadata player-key="PO116335">
+            <name first="" last="Cléber" full=" Cléber" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO37980">
+          <player-metadata player-key="PO37980">
+            <name first="Ivo" last="Ilicevic" full="Ivo Ilicevic" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO41273">
+          <player-metadata player-key="PO41273">
+            <name first="Nicolai" last="Müller" full="Nicolai Müller" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO49318">
+          <player-metadata player-key="PO49318">
+            <name first="Lewis" last="Holtby" full="Lewis Holtby" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO192788">
+          <player-metadata player-key="PO192788">
+            <name first="Gideon" last="Jung" full="Gideon Jung" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO18185">
+          <player-metadata player-key="PO18185">
+            <name first="Aaron" last="Hunt" full="Aaron Hunt" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO62480">
+          <player-metadata player-key="PO62480">
+            <name first="Michael" last="Gregoritsch" full="Michael Gregoritsch" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO41273">
+          <player-metadata player-key="PO41273">
+            <name first="Nicolai" last="Müller" full="Nicolai Müller" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO80790">
+          <player-metadata player-key="PO80790">
+            <name first="Pierre-Michel" last="Lasogga" full="Pierre-Michel Lasogga" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO37980">
+          <player-metadata player-key="PO37980">
+            <name first="Ivo" last="Ilicevic" full="Ivo Ilicevic" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <team>
+        <team-metadata team-key="TFBB808" alignment="home">
+          <name first="Hannover 96" full="Hannover 96" abbreviation="H96" nickname="Hannover 96" bbc:vide-code="Hannover 96" />
+        </team-metadata>
+        <team-stats score="0" score-opposing="3" event-outcome="loss">
+          <sub-score period-value="1" score="0" />
+          <sub-score period-value="2" score="0" />
+        </team-stats>
+        <player id="PO40661">
+          <player-metadata player-key="PO40661">
+            <name first="Ceyhun" last="Gülselam" full="Ceyhun Gülselam" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO86361">
+          <player-metadata player-key="PO86361">
+            <name first="Uffe" last="Bech" full="Uffe Bech" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO58712">
+          <player-metadata player-key="PO58712">
+            <name first="Ádám" last="Szalai" full="Ádám Szalai" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <event-actions>
+        <event-actions-soccer>
+          <action-soccer-substitution id="a.589481285" sequence-number="2016-04-02T15:57:34" minutes-elapsed="71" date-time="2016-04-02T15:57:34+01:00" period-value="2" team-idref="TFBB808" person-original-idref="PO40661" person-replacing-idref="PO86361" substitution-reason="Tactical" />
+          <action-soccer-penalty id="a.58712" sequence-number="2016-04-02T15:44:32" minutes-elapsed="58" date-time="2016-04-02T15:44:32+01:00" period-value="2" team-idref="TFBB808" recipient-type="player" recipient-idref="PO58712" penalty-level="yellow-card" />
+          <action-soccer-score id="a.1552931656" sequence-number="2016-04-02T15:47:33" period-value="2" team-idref="TFBB161" score-attempt-type="regular" minutes-elapsed="61" date-time="2016-04-02T15:47:33+01:00">
+            <action-soccer-play-participant player-idref="PO116335" team-idref="TFBB161" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.854240217" sequence-number="2016-04-02T15:59:28" period-value="2" team-idref="TFBB161" score-attempt-type="regular" minutes-elapsed="73" date-time="2016-04-02T15:59:28+01:00">
+            <action-soccer-play-participant player-idref="PO37980" team-idref="TFBB161" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.1892548761" sequence-number="2016-04-02T16:01:32" period-value="2" team-idref="TFBB161" score-attempt-type="regular" minutes-elapsed="75" date-time="2016-04-02T16:01:32+01:00">
+            <action-soccer-play-participant player-idref="PO41273" team-idref="TFBB161" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-substitution id="a.857703170" sequence-number="2016-04-02T15:31:12" minutes-elapsed="46" date-time="2016-04-02T15:31:12+01:00" period-value="2" team-idref="TFBB161" person-original-idref="PO49318" person-replacing-idref="PO192788" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.1154947469" sequence-number="2016-04-02T15:55:46" minutes-elapsed="69" date-time="2016-04-02T15:55:46+01:00" period-value="2" team-idref="TFBB161" person-original-idref="PO18185" person-replacing-idref="PO62480" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.1951782945" sequence-number="2016-04-02T16:12:30" minutes-elapsed="86" date-time="2016-04-02T16:12:30+01:00" period-value="2" team-idref="TFBB161" person-original-idref="PO41273" person-replacing-idref="PO80790" substitution-reason="Tactical" />
+          <action-soccer-penalty id="a.37980" sequence-number="2016-04-02T15:55:02" minutes-elapsed="68" date-time="2016-04-02T15:55:02+01:00" period-value="2" team-idref="TFBB161" recipient-type="player" recipient-idref="PO37980" penalty-level="yellow-card" />
+        </event-actions-soccer>
+      </event-actions>
+    </sports-event>
+    <sports-event>
+      <event-metadata date-coverage-type="event" event-key="EFBO810681" event-status="post-event" event-status-note="Result" start-date-time="2016-04-02T14:30:00+01:00" event-name="SV Darmstadt 98 v VfB Stuttgart" event-outcome-type="regular">
+        <sports-content-codes />
+        <event-metadata-soccer />
+      </event-metadata>
+      <team>
+        <team-metadata team-key="TFBB169" alignment="away">
+          <name first="VfB Stuttgart" full="VfB Stuttgart" abbreviation="VFB" nickname="VfB Stuttgart" bbc:vide-code="VfB Stuttgart" />
+        </team-metadata>
+        <team-stats score="2" score-opposing="2" event-outcome="tie">
+          <sub-score period-value="1" score="2" />
+          <sub-score period-value="2" score="0" />
+          <team-stats-soccer>
+            <stats-soccer-offensive goals-total="2" />
+            <stats-soccer-foul ejections-total="0" cautions-total="1" />
+          </team-stats-soccer>
+        </team-stats>
+        <player id="PO19769">
+          <player-metadata player-key="PO19769">
+            <name first="Christian" last="Gentner" full="Christian Gentner" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO76306">
+          <player-metadata player-key="PO76306">
+            <name first="Lukas" last="Rupp" full="Lukas Rupp" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO70496">
+          <player-metadata player-key="PO70496">
+            <name first="Toni" last="Sunjic" full="Toni Sunjic" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO43615">
+          <player-metadata player-key="PO43615">
+            <name first="Florian" last="Klein" full="Florian Klein" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO59271">
+          <player-metadata player-key="PO59271">
+            <name first="Daniel" last="Didavi" full="Daniel Didavi" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO37797">
+          <player-metadata player-key="PO37797">
+            <name first="Martin" last="Harnik" full="Martin Harnik" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO76306">
+          <player-metadata player-key="PO76306">
+            <name first="Lukas" last="Rupp" full="Lukas Rupp" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO165153">
+          <player-metadata player-key="PO165153">
+            <name first="Timo" last="Werner" full="Timo Werner" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO43615">
+          <player-metadata player-key="PO43615">
+            <name first="Florian" last="Klein" full="Florian Klein" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <team>
+        <team-metadata team-key="TFBB1756" alignment="home">
+          <name first="SV Darmstadt 98" full="SV Darmstadt 98" abbreviation="D98" nickname="SV Darmstadt 98" bbc:vide-code="SV Darmstadt 98" />
+        </team-metadata>
+        <team-stats score="2" score-opposing="2" event-outcome="tie">
+          <sub-score period-value="1" score="1" />
+          <sub-score period-value="2" score="1" />
+          <team-stats-soccer>
+            <stats-soccer-offensive goals-total="2" />
+            <stats-soccer-foul ejections-total="0" cautions-total="4" />
+          </team-stats-soccer>
+        </team-stats>
+        <player id="PO37614">
+          <player-metadata player-key="PO37614">
+            <name first="Mario" last="Vrancic" full="Mario Vrancic" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO204298">
+          <player-metadata player-key="PO204298">
+            <name first="Felix" last="Platte" full="Felix Platte" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO45015">
+          <player-metadata player-key="PO45015">
+            <name first="Sandro" last="Wagner" full="Sandro Wagner" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO15152">
+          <player-metadata player-key="PO15152">
+            <name first="Peter" last="Niemeyer" full="Peter Niemeyer" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO15152">
+          <player-metadata player-key="PO15152">
+            <name first="Peter" last="Niemeyer" full="Peter Niemeyer" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO51937">
+          <player-metadata player-key="PO51937">
+            <name first="Florian" last="Jungwirth" full="Florian Jungwirth" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO49939">
+          <player-metadata player-key="PO49939">
+            <name first="Konstantin" last="Rausch" full="Konstantin Rausch" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO40540">
+          <player-metadata player-key="PO40540">
+            <name first="Marcel" last="Heller" full="Marcel Heller" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <event-actions>
+        <event-actions-soccer>
+          <action-soccer-substitution id="a.634302771" sequence-number="2016-04-02T16:19:46" minutes-elapsed="92" date-time="2016-04-02T16:19:46+01:00" period-value="2" team-idref="TFBB1756" person-original-idref="PO37614" person-replacing-idref="PO204298" substitution-reason="Tactical" />
+          <action-soccer-score id="a.1068772045" sequence-number="2016-04-02T14:56:53" period-value="1" team-idref="TFBB1756" score-attempt-type="regular" minutes-elapsed="26" date-time="2016-04-02T14:56:53+01:00">
+            <action-soccer-play-participant player-idref="PO45015" team-idref="TFBB1756" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.1665475078" sequence-number="2016-04-02T15:39:05" period-value="2" team-idref="TFBB1756" score-attempt-type="regular" minutes-elapsed="51" date-time="2016-04-02T15:39:05+01:00">
+            <action-soccer-play-participant player-idref="PO15152" team-idref="TFBB1756" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-penalty id="a.15152" sequence-number="2016-04-02T15:49:48" minutes-elapsed="62" date-time="2016-04-02T15:49:48+01:00" period-value="2" team-idref="TFBB1756" recipient-type="player" recipient-idref="PO15152" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.51937" sequence-number="2016-04-02T15:57:42" minutes-elapsed="70" date-time="2016-04-02T15:57:42+01:00" period-value="2" team-idref="TFBB1756" recipient-type="player" recipient-idref="PO51937" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.49939" sequence-number="2016-04-02T16:15:05" minutes-elapsed="87" date-time="2016-04-02T16:15:05+01:00" period-value="2" team-idref="TFBB1756" recipient-type="player" recipient-idref="PO49939" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.40540" sequence-number="2016-04-02T16:17:49" minutes-elapsed="90" date-time="2016-04-02T16:17:49+01:00" period-value="2" team-idref="TFBB1756" recipient-type="player" recipient-idref="PO40540" penalty-level="yellow-card" />
+          <action-soccer-score id="a.172782624" sequence-number="2016-04-02T15:15:55" period-value="1" team-idref="TFBB169" score-attempt-type="regular" minutes-elapsed="45" date-time="2016-04-02T15:15:55+01:00">
+            <action-soccer-play-participant player-idref="PO19769" team-idref="TFBB169" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.1690327925" sequence-number="2016-04-02T15:18:17" period-value="1" team-idref="TFBB169" score-attempt-type="regular" minutes-elapsed="48" date-time="2016-04-02T15:18:17+01:00">
+            <action-soccer-play-participant player-idref="PO76306" team-idref="TFBB169" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-substitution id="a.965950884" sequence-number="2016-04-02T14:52:02" minutes-elapsed="21" date-time="2016-04-02T14:52:02+01:00" period-value="1" team-idref="TFBB169" person-original-idref="PO70496" person-replacing-idref="PO43615" substitution-reason="Injury" />
+          <action-soccer-substitution id="a.1944196723" sequence-number="2016-04-02T15:59:45" minutes-elapsed="72" date-time="2016-04-02T15:59:45+01:00" period-value="2" team-idref="TFBB169" person-original-idref="PO59271" person-replacing-idref="PO37797" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.1629322564" sequence-number="2016-04-02T16:14:27" minutes-elapsed="87" date-time="2016-04-02T16:14:27+01:00" period-value="2" team-idref="TFBB169" person-original-idref="PO76306" person-replacing-idref="PO165153" substitution-reason="Tactical" />
+          <action-soccer-penalty id="a.43615" sequence-number="2016-04-02T16:17:50" minutes-elapsed="90" date-time="2016-04-02T16:17:50+01:00" period-value="2" team-idref="TFBB169" recipient-type="player" recipient-idref="PO43615" penalty-level="yellow-card" />
+        </event-actions-soccer>
+      </event-actions>
+    </sports-event>
+    <sports-event>
+      <event-metadata date-coverage-type="event" event-key="EFBO810674" event-status="post-event" event-status-note="Result" start-date-time="2016-04-02T17:30:00+01:00" event-name="Borussia Dortmund v SV Werder Bremen" event-outcome-type="regular">
+        <sports-content-codes />
+        <event-metadata-soccer />
+      </event-metadata>
+      <team>
+        <team-metadata team-key="TFBB171" alignment="away">
+          <name first="SV Werder Bremen" full="SV Werder Bremen" abbreviation="BRE" nickname="SV Werder Bremen" bbc:vide-code="SV Werder Bremen" />
+        </team-metadata>
+        <team-stats score="2" score-opposing="3" event-outcome="loss">
+          <sub-score period-value="1" score="0" />
+          <sub-score period-value="2" score="2" />
+          <team-stats-soccer>
+            <stats-soccer-offensive goals-total="2" />
+            <stats-soccer-foul ejections-total="0" cautions-total="3" />
+          </team-stats-soccer>
+        </team-stats>
+        <player id="PO90573">
+          <player-metadata player-key="PO90573">
+            <name first="Alejandro" last="Gálvez" full="Alejandro Gálvez" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO41347">
+          <player-metadata player-key="PO41347">
+            <name first="Zlatko" last="Junuzovic" full="Zlatko Junuzovic" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO57345">
+          <player-metadata player-key="PO57345">
+            <name first="Santiago" last="García" full="Santiago García" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO165174">
+          <player-metadata player-key="PO165174">
+            <name first="Levin" last="Öztunali" full="Levin Öztunali" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO82287">
+          <player-metadata player-key="PO82287">
+            <name first="Anthony" last="Ujah" full="Anthony Ujah" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO205609">
+          <player-metadata player-key="PO205609">
+            <name first="Lukas" last="Fröde" full="Lukas Fröde" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO60343">
+          <player-metadata player-key="PO60343">
+            <name first="Sambou" last="Yatabaré" full="Sambou Yatabaré" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO172793">
+          <player-metadata player-key="PO172793">
+            <name first="Melvyn" last="Lorenzen" full="Melvyn Lorenzen" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO57345">
+          <player-metadata player-key="PO57345">
+            <name first="Santiago" last="García" full="Santiago García" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO60343">
+          <player-metadata player-key="PO60343">
+            <name first="Sambou" last="Yatabaré" full="Sambou Yatabaré" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO90573">
+          <player-metadata player-key="PO90573">
+            <name first="Alejandro" last="Gálvez" full="Alejandro Gálvez" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <team>
+        <team-metadata team-key="TFBB157" alignment="home">
+          <name first="Borussia Dortmund" full="Borussia Dortmund" abbreviation="BVB" nickname="Borussia Dortmund" bbc:vide-code="Borussia Dortmund" />
+        </team-metadata>
+        <team-stats score="3" score-opposing="2" event-outcome="win">
+          <sub-score period-value="1" score="0" />
+          <sub-score period-value="2" score="3" />
+          <team-stats-soccer>
+            <stats-soccer-offensive goals-total="3" />
+            <stats-soccer-foul ejections-total="0" cautions-total="1" />
+          </team-stats-soccer>
+        </team-stats>
+        <player id="PO118884">
+          <player-metadata player-key="PO118884">
+            <name first="Erik" last="Durm" full="Erik Durm" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO83090">
+          <player-metadata player-key="PO83090">
+            <name first="Shinji" last="Kagawa" full="Shinji Kagawa" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO50523">
+          <player-metadata player-key="PO50523">
+            <name first="Marco" last="Reus" full="Marco Reus" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO176413">
+          <player-metadata player-key="PO176413">
+            <name first="Christian" last="Pulisic" full="Christian Pulisic" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO52516">
+          <player-metadata player-key="PO52516">
+            <name first="Marcel" last="Schmelzer" full="Marcel Schmelzer" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO57254">
+          <player-metadata player-key="PO57254">
+            <name first="Adrián" last="Ramos" full="Adrián Ramos" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO54694">
+          <player-metadata player-key="PO54694">
+            <name first="Pierre-Emerick" last="Aubameyang" full="Pierre-Emerick Aubameyang" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO83090">
+          <player-metadata player-key="PO83090">
+            <name first="Shinji" last="Kagawa" full="Shinji Kagawa" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO57254">
+          <player-metadata player-key="PO57254">
+            <name first="Adrián" last="Ramos" full="Adrián Ramos" abbreviation="" />
+          </player-metadata>
+        </player>
+        <player id="PO19560">
+          <player-metadata player-key="PO19560">
+            <name first="Gonzalo" last="Castro" full="Gonzalo Castro" abbreviation="" />
+          </player-metadata>
+        </player>
+      </team>
+      <event-actions>
+        <event-actions-soccer>
+          <action-soccer-substitution id="a.1375821938" sequence-number="2016-04-02T19:01:49" minutes-elapsed="74" date-time="2016-04-02T19:01:49+01:00" period-value="2" team-idref="TFBB157" person-original-idref="PO118884" person-replacing-idref="PO83090" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.924107099" sequence-number="2016-04-02T19:07:43" minutes-elapsed="80" date-time="2016-04-02T19:07:43+01:00" period-value="2" team-idref="TFBB157" person-original-idref="PO50523" person-replacing-idref="PO176413" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.33036101" sequence-number="2016-04-02T19:07:33" minutes-elapsed="80" date-time="2016-04-02T19:07:33+01:00" period-value="2" team-idref="TFBB157" person-original-idref="PO52516" person-replacing-idref="PO57254" substitution-reason="Tactical" />
+          <action-soccer-score id="a.1880950407" sequence-number="2016-04-02T18:40:56" period-value="2" team-idref="TFBB157" score-attempt-type="regular" minutes-elapsed="53" date-time="2016-04-02T18:40:56+01:00">
+            <action-soccer-play-participant player-idref="PO54694" team-idref="TFBB157" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.1100841726" sequence-number="2016-04-02T19:05:20" period-value="2" team-idref="TFBB157" score-attempt-type="regular" minutes-elapsed="77" date-time="2016-04-02T19:05:20+01:00">
+            <action-soccer-play-participant player-idref="PO83090" team-idref="TFBB157" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.287581617" sequence-number="2016-04-02T19:09:36" period-value="2" team-idref="TFBB157" score-attempt-type="regular" minutes-elapsed="82" date-time="2016-04-02T19:09:36+01:00">
+            <action-soccer-play-participant player-idref="PO57254" team-idref="TFBB157" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-penalty id="a.19560" sequence-number="2016-04-02T19:18:47" minutes-elapsed="91" date-time="2016-04-02T19:18:47+01:00" period-value="2" team-idref="TFBB157" recipient-type="player" recipient-idref="PO19560" penalty-level="yellow-card" />
+          <action-soccer-score id="a.1278204377" sequence-number="2016-04-02T18:56:32" period-value="2" team-idref="TFBB171" score-attempt-type="regular" minutes-elapsed="69" date-time="2016-04-02T18:56:32+01:00">
+            <action-soccer-play-participant player-idref="PO90573" team-idref="TFBB171" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-score id="a.759092576" sequence-number="2016-04-02T19:02:19" period-value="2" team-idref="TFBB171" score-attempt-type="regular" minutes-elapsed="74" date-time="2016-04-02T19:02:19+01:00">
+            <action-soccer-play-participant player-idref="PO41347" team-idref="TFBB171" role="scorer" />
+          </action-soccer-score>
+          <action-soccer-substitution id="a.1482610088" sequence-number="2016-04-02T18:52:39" minutes-elapsed="65" date-time="2016-04-02T18:52:39+01:00" period-value="2" team-idref="TFBB171" person-original-idref="PO57345" person-replacing-idref="PO165174" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.2089591824" sequence-number="2016-04-02T19:13:33" minutes-elapsed="86" date-time="2016-04-02T19:13:33+01:00" period-value="2" team-idref="TFBB171" person-original-idref="PO82287" person-replacing-idref="PO205609" substitution-reason="Tactical" />
+          <action-soccer-substitution id="a.328785063" sequence-number="2016-04-02T19:13:26" minutes-elapsed="86" date-time="2016-04-02T19:13:26+01:00" period-value="2" team-idref="TFBB171" person-original-idref="PO60343" person-replacing-idref="PO172793" substitution-reason="Tactical" />
+          <action-soccer-penalty id="a.57345" sequence-number="2016-04-02T17:44:09" minutes-elapsed="15" date-time="2016-04-02T17:44:09+01:00" period-value="1" team-idref="TFBB171" recipient-type="player" recipient-idref="PO57345" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.60343" sequence-number="2016-04-02T18:38:01" minutes-elapsed="50" date-time="2016-04-02T18:38:01+01:00" period-value="2" team-idref="TFBB171" recipient-type="player" recipient-idref="PO60343" penalty-level="yellow-card" />
+          <action-soccer-penalty id="a.90573" sequence-number="2016-04-02T18:41:02" minutes-elapsed="53" date-time="2016-04-02T18:41:02+01:00" period-value="2" team-idref="TFBB171" recipient-type="player" recipient-idref="PO90573" penalty-level="yellow-card" />
+        </event-actions-soccer>
+      </event-actions>
+    </sports-event>
+  </schedule>
+</sports-content>
+

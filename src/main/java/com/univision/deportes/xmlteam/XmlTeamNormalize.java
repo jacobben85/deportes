@@ -23,7 +23,7 @@ public class XmlTeamNormalize {
 
     public boolean process() {
 
-        InputStream xml1 = this.getClass().getClassLoader().getResourceAsStream("xml/sample/roster.xml");
+        InputStream xml1 = this.getClass().getClassLoader().getResourceAsStream("xml/sample/809979.xml");
 
         InputStream xsl1 = this.getClass().getClassLoader().getResourceAsStream("xsl/xmlteam/bbc-to-xts.xsl");
         String response1 = transformer(xml1, xsl1, false);
@@ -34,7 +34,7 @@ public class XmlTeamNormalize {
 
         InputStream xml3 = new ByteArrayInputStream(response2.getBytes());
         InputStream xsl3 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/event-reports.xsl");
-        String response3 = transformer(xml3, xsl3, false);
+        String response3 = transformer(xml3, xsl3, true);
 
         InputStream xml4 = new ByteArrayInputStream(response3.getBytes());
         InputStream xsl4 = this.getClass().getClassLoader().getResourceAsStream("xsl/univision/normalize.xsl");
